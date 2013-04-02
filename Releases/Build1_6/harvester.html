@@ -1,0 +1,253 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | Harvester Tool</title>
+	
+	<link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='css/harvester.css'>
+	
+	
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+
+	<script src='js/libs/jquery.watermark.min.js'></script>
+
+	<script>
+		$(function() {
+			
+			//SETUP BUTTON UI
+			$("#image, #jumppad").buttonset();
+
+			//HIDE DIVs
+			$("#knowtitle, #knowtags, #personal, #private, #knowtopics").hide();
+
+			//JUMPPAD SELECTION MENU SHOW/HIDE
+			$("input[name=jumppad]").change(function(){
+    			$("#knowtitle, #knowtags, #knowtopics, #personal, #private").hide();
+    			$('#personal, #private').prop('selectedIndex',0);
+    			$('#topics').prop('selectedIndex',0);
+				$('#' + $("input:radio[name='jumppad']:checked").val()).show();
+			});
+
+			$("#personal, #private").change(function(){
+				$("#knowtitle").hide();
+				$("#" + $(this).val()).show();
+			});
+
+			//TITLE AND TAG FIELDS SHOW/HIDE
+			$("#personal").change(function(){
+				if($(this).val() === "knowtitle") {
+					$("#knowtitle, #knowtopics, #knowtags").show();
+				}
+				if($(this).val() === "") {
+					$("#knowtitle, #knowtopics, #knowtags").hide();
+				}
+				else {
+					$("#knowtopics, #knowtags").show();
+				}
+			});
+
+			$("#private").change(function(){
+				if($(this).val() === "knowtitle") {
+					$("#knowtitle, #knowtags").show();
+				}
+				if($(this).val() === "") {
+					$("#knowtitle, #knowtags").hide();
+				}
+				else {
+					$("#knowtags").show();
+				}
+			});
+
+			//HIDE/SHOW IMAGE OPTIONS
+			$('#noimage').click(function() {
+				if( $(this).is(':checked')) {
+					$("#image").hide();
+				} else {
+					$("#image").show();
+				}
+			});
+
+			//WATERMARKS
+			//var $addTitle = 'Enter Knowledge Cell Name';
+			//var $addTags = 'Enter Tags';
+			//$("#title").watermark($addTitle, {useNative: false});
+			//$("#tags").watermark($addTags, {useNative: false});
+
+		});
+	</script>
+	
+	
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+</head>
+
+<body>
+
+	<!-- BOOKMARKLET -->
+	<div id="bookmarklet">
+
+		<div id="header">
+			<h1>SO:KNO&trade;</h1>
+			<h3>A World of Knowledge. Infinite Possibilities.</h3>
+		</div>
+		
+		<div id="content" class="clearfix">
+			<form method="" action="">
+
+				<div class="block-harvest first">
+					<h4>Title of this Content</h4>
+					<p>Title of Article or Video Content Goes Here</p>
+				</div>
+				
+				<div id="photo" class="block-harvest">
+					<h4>Choose an Image</h4>
+					<p>Select the image that will be used as the primary image for this content.<br><span>If no suitable image is found, you can selelct "No Image" to use the SO:KNO default image.</span></p>
+					<p><input type="checkbox" name="noimage" id="noimage"><label for="noimage">No Image</label></p>
+					<div id="image">
+						<input type="radio" id="image1" name="image" checked="checked" />
+						<label for="image1"><img src="img/ui/placeholder-bookmarklet.png" width="172" height="128" alt="" /></label>
+						
+						<input type="radio" id="image2" name="image" />
+						<label for="image2"><img src="img/ui/placeholder-bookmarklet.png" width="172" height="128" alt="" /></label>
+						
+						<input type="radio" id="image3" name="image" />
+						<label for="image3"><img src="img/ui/placeholder-bookmarklet.png" width="172" height="128" alt="" /></label>
+					</div>
+				</div>
+				
+				<div id="jump" class="block-harvest">
+					<h4>Place Content</h4>
+					<p>Select the JumpPad where you want this content to be placed</p>
+				
+					<div id="jumppad">
+						<input type="radio" id="jumppad1" name="jumppad" value="personal" />
+						<label for="jumppad1">Personal</label>
+						
+						<input type="radio" id="jumppad2" name="jumppad" value="private" />
+						<label for="jumppad2">Private</label>
+					</div>
+
+					<div id="knowcell">
+						<select id="personal" name="personal">
+							<option value="" selected="selected">Select a Personal Knowledge Cell</option>
+							<option value="">---------------------------</option>
+							<option value="knowtitle">+ Add New Knowledge Cell</option>
+							<option value="">---------------------------</option>
+							<option value="pers1">Personal KnowledgeCell 1</option>
+							<option value="pers2">Personal KnowledgeCell 2</option>
+							<option value="pers3">Personal KnowledgeCell 3</option>
+							<option value="pers4">Personal KnowledgeCell 4</option>
+							<option value="pers5">Personal KnowledgeCell 5</option>
+						</select>
+						
+						<select id="private" name="private">
+							<option value="" selected="selected">Select a Private Knowledge Cell</option>
+							<option value="">---------------------------</option>
+							<option value="knowtitle">+ Add New Knowledge Cell</option>
+							<option value="">---------------------------</option>
+							<option value="priv1">KnowledgeCell 1</option>
+							<option value="priv2">KnowledgeCell 2</option>
+							<option value="priv3">KnowledgeCell 3</option>
+							<option value="priv4">KnowledgeCell 4</option>
+							<option value="priv5">KnowledgeCell 5</option>
+						</select>
+					</div>
+
+					<div id="knowtitle">
+						<p>Enter in the Name of this Knowledge Cell.  For example, <strong>Algebra</strong>, <strong>Golf</strong>, <strong>Research</strong> etc</p>
+						<input type="text" id="title" name="title" value="" />
+					</div>
+
+				</div>
+
+				<div id="knowtopics" class="block-harvest">
+					<h4>Add Topic <em>(REQUIRED)</em></h4>
+					<p>Select a Topic to help Categorize this content</p>
+					<select name="topics" id="topics">
+						<option value="" selected="selected">Select a Topic</option>
+						<option value="Animals">Animals</option>
+						<option value="Aeronautics">Aeronautics</option>
+						<option value="Arts & Crafts">Arts & Crafts</option>
+						<option value="Automotive">Automotive</option>
+						<option value="Business">Business</option>
+						<option value="Culture">Culture</option>
+						<option value="Design">Design</option>
+						<option value="Education">Education</option>
+						<option value="Energy">Energy</option>
+						<option value="Engineering">Engineering</option>
+						<option value="Entertainment">Entertainment</option>
+						<option value="Fashion">Fashion</option>
+						<option value="Fitness & Nutrition">Fitness & Nutrition</option>
+						<option value="Food & Drink">Food & Drink</option>
+						<option value="Gaming">Gaming</option>
+						<option value="Geography">Geography</option>
+						<option value="Government & Politics">Government & Politics</option>
+						<option value="Health & Medicine">Health & Medicine</option>
+						<option value="History">History</option>
+						<option value="Internet & Social">Internet & Social</option>
+						<option value="Language">Language</option>
+						<option value="Law">Law</option>
+						<option value="Literature">Literature</option>
+						<option value="Living">Living</option>
+						<option value="Math">Math</option>
+						<option value="Music">Music</option>
+						<option value="Nature">Nature</option>
+						<option value="News">News</option>
+						<option value="Parenting">Parenting</option>
+						<option value="Photography">Photography</option>
+						<option value="Products & Gear">Products & Gear</option>
+						<option value="Programming">Programming</option>
+						<option value="Religion & Philosophy">Religion & Philosophy</option>
+						<option value="Science">Science</option>
+						<option value="Space">Space</option>
+						<option value="Sports">Sports</option>
+						<option value="Style & Beauty">Style & Beauty</option>
+						<option value="Transportation">Transportation</option>
+						<option value="Travel">Travel</option>
+						<option value="Technology">Technology</option>
+						<option value="Weather">Weather</option>
+						<option value="World">World</option>
+					</select>
+				</div>
+
+				<div id="knowtags" class="block-harvest">
+					<h4>Add Tags <em>(OPTIONAL)</em></h4>
+					<p>Add Keywords as Tags. Seperate each Keyword with a <strong>Comma</strong> or <strong>Space</strong></p>
+					<input type="text" id="tags" name="tags" value="" />
+				</div>
+				
+				<div id="knowadd">
+					<input type="hidden" name="guid" id="guid" value="">
+					<div class="button input orange"><input type="submit" value="Add Knowledge" /></div>
+				</div>
+				
+			</form>
+		</div>
+		
+	</div>
+	<!-- END BOOKMARKLET -->
+
+</body>
+</html>

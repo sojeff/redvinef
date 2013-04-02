@@ -1,0 +1,172 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | About</title>
+	
+	<link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='css/layout.css'>
+	<link rel='stylesheet' href='css/styles.css'>
+	
+	
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+	<script src='js/libs/jquery.watermark.min.js'></script>
+	<script src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script src='js/libs/jquery.autosize-min.js'></script>
+	<script src='js/scripts.js'></script>
+	
+	
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="about.html"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li><a href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</div>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- ABOUT -->
+<section class="jumppads">
+	<hgroup>
+		<h3>Learn More</h3>
+	</hgroup>
+	<ul class="nav">
+		<li><a href="about.html">What is SO:KNO?</a></li>
+		<li class='current'><a class='current' href="guide.html">Guide</a></li>
+		<li><a href="tools.html">Tools</a></li>
+		<li><a href="team.html">The Team</a></li>
+		<li><a href="support.html">Contact &amp; Support</a></li>
+	</ul>
+</section>
+	<!-- ABOUT -->
+<section class="jumppads">
+	<hgroup>
+	</hgroup>
+	<ul class="nav">
+		<li><a href="terms.html">Terms of Service</a></li>
+		<li><a href="privacy.html">Privacy Policy</a></li>
+	</ul>
+</section>
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<h3>SO:KNO Guide</h3>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div id="content-article" class="clearfix">
+		<h3 class="title">Beta Release v0.1</h3>
+		<h3>Knowledge Discovery</h3>
+		<p>Discover a global body of knowledge and the brightest minds around any topic.</p>
+
+		<h3>Collaborative Learning</h3>
+		<p>Engage with like-minded people from around the world in educational, cultural, and scientific content-driven collaborative projects.</p>
+
+		<h3>Knowledge Cells</h3>
+		<p>Knowledge Cells are Living Communities of Knowledge that contain content, discussions and people around a topic. Deepen your knowledge and understanding by interacting with others who share a problem, an area of interest, or a passion. Create your own or browse Knowledge Cells created by others and discover even more knowledge and meet new people who share your interests.</p>
+
+		<h3>JumpPads</h3>
+		<p>A JumpPad is where you store and collect Knowledge Cells. Add and share all the things you care about to your own Personal Jumppad.</p>
+
+		<h3>Threads</h3>
+		<p>Join and participate in community conversations by adding comments, content links or upload additional content to help shape or add to the discussion.</p>
+
+		<h3>PersonaGraf</h3>
+		<p>Create a personal journey and a dynamic awareness of your natural strengths and talents. Build a global marketable Persona and become an expert around a topic.</p>
+
+		<h3>Library</h3>
+		<p>Save and share your personal content e-portfolio with others.  With SO:KNO's cloud-based platform, your content e-portfolio is always available and accessible anytime, anywhere you go.</p>
+
+		<h3>Ranking</h3>
+		<p>Earn social recognition and influence among your peers through the SO:KNO community-wide ranking system. SO:KNO rewards the pursuit and efforts of individual participation to build the body of knowledge.</p>
+
+		<h3>Curation Toolbar</h3>
+		<p>Use the Curation Toolbar to influence the ranking of content and improve the experience for yourself &amp; others.  Add ‘Comments’, ‘Flag’, ‘Like' or ‘Share’ your SO:KNO experience with your Facebook and Twitter friends.</p>
+
+		<h3>The Harvest Button</h3>
+		<p>Add content you care about and share what you find with others. Become a trusted source through which users find content they value.  Everything you add becomes part of your Personal JumpPad &amp; your Library and can be shared with any Knowledge Cells you are connected with.</p>
+
+		<h3>Connections</h3>
+		<p>Discover and follow interesting people, peers and experts that share similar interests.  Expand your network and see what your friends are up to and see how influential they are.</p>
+
+	</div>
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+</body>
+</html>

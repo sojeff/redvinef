@@ -1,0 +1,144 @@
+/*-------------------------------------------
+Application: SO·KNO
+File: styles.less
+Company: Live Editions, Inc.
+Version: 1.5
+Copyright: Kevin Mooney Jr
+--------------------------------------------- */
+/* Colors
+--------------------------------------------- */
+/* Grays */
+/* Blues */
+/* Greens */
+/* Oranges */
+/* Hues */
+/* Mixins
+--------------------------------------------- */
+.linebelow {
+  border-bottom: 2px solid #a9acae;
+}
+/* HTML Tags
+--------------------------------------------- */
+body,
+html {
+  background: #ffffff url('../img/tiles/tile_background.png') 0 0 repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+p,
+a,
+li {
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  width: 138px;
+  height: 24px;
+  text-indent: -9999px;
+  background: url('../img/image_logo.png') no-repeat 0 0;
+  position: relative;
+  float: left;
+}
+h2 {
+  font-size: 23px;
+  text-align: left;
+}
+h3 {
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 13px;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* Formatting
+--------------------------------------------- */
+.copyright {
+  float: right;
+  color: #a9acae;
+}
+/* Blocks
+--------------------------------------------- */
+article h3 {
+  margin-bottom: 6px;
+}
+article h3 a {
+  color: #000000;
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.block-cell {
+  background: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+}
+.block-stats {
+  height: 16px;
+  padding: 8px 0;
+}
+.block-stats li {
+  height: 14px;
+  color: #a9acae;
+  float: right;
+  margin-right: 10px;
+}
+.block-stats li span {
+  height: 14px;
+  float: left;
+  margin-right: 4px;
+}
+.block-stats li span.icon-community {
+  background: url('../img/icons/stats_comment.png') 0 0 no-repeat;
+  width: 18px !important;
+}
+.block-stats li span.icon-content {
+  background: url('../img/icons/stats_like.png') 0 0 no-repeat;
+  width: 16px !important;
+}
+/* Navigation
+--------------------------------------------- */
+#nav-meta li,
+#nav-header li,
+#nav-footer li {
+  display: inline;
+}
+#nav-meta li a,
+#nav-header li a,
+#nav-footer li a {
+  color: #ffffff;
+}
+/* Layout
+--------------------------------------------- */
+#meta {
+  background: #646668;
+  height: 48px;
+}
+#header {
+  background: #1e2022;
+  height: 96px;
+}
+#section-header {
+  border-bottom: 2px solid #a9acae;
+}
+#section-header h2 {
+  margin-left: 10px;
+}
+/* Forms
+--------------------------------------------- */
+input {
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #d2d4d4;
+  height: 6px;
+  padding: 10px;
+  color: #a9acae;
+  font-size: 11px;
+}
+#field-find {
+  background: #ffffff url('../img/icon_find.png') 278px 8px no-repeat;
+  width: 288px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,1140 @@
+[06-Feb-2013 22:44:39] PHP Warning:  getimagesize() expects parameter 1 to be string, resource given in /var/www/redvinef/libraries/SimpleImage.php on line 30
+[06-Feb-2013 22:44:39] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /var/www/redvinef/libraries/SimpleImage.php on line 73
+[06-Feb-2013 22:44:39] PHP Warning:  Division by zero in /var/www/redvinef/libraries/SimpleImage.php on line 87
+[06-Feb-2013 22:44:39] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /var/www/redvinef/libraries/SimpleImage.php on line 77
+[06-Feb-2013 22:44:39] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /var/www/redvinef/libraries/SimpleImage.php on line 99
+[06-Feb-2013 22:44:39] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /var/www/redvinef/libraries/SimpleImage.php on line 73
+[06-Feb-2013 22:44:39] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /var/www/redvinef/libraries/SimpleImage.php on line 77
+[06-Feb-2013 22:44:39] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 100
+[06-Feb-2013 22:44:39] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[06-Feb-2013 22:44:39] PHP Warning:  getimagesize() expects parameter 1 to be string, resource given in /var/www/redvinef/libraries/SimpleImage.php on line 30
+[06-Feb-2013 22:44:39] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 73
+[06-Feb-2013 22:44:39] PHP Warning:  Division by zero in /var/www/redvinef/libraries/SimpleImage.php on line 87
+[06-Feb-2013 22:44:39] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 77
+[06-Feb-2013 22:44:39] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /var/www/redvinef/libraries/SimpleImage.php on line 99
+[06-Feb-2013 22:44:39] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 73
+[06-Feb-2013 22:44:39] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 77
+[06-Feb-2013 22:44:39] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 100
+[06-Feb-2013 22:44:39] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[07-Feb-2013 00:06:16] PHP Notice:  Undefined variable: boundx in /var/www/redvinef/views/settings.v.crop.php on line 52
+[07-Feb-2013 00:06:16] PHP Notice:  Undefined variable: boundy in /var/www/redvinef/views/settings.v.crop.php on line 57
+[07-Feb-2013 00:06:46] PHP Notice:  Undefined variable: boundx in /var/www/redvinef/views/settings.v.crop.php on line 52
+[07-Feb-2013 00:06:46] PHP Notice:  Undefined variable: boundy in /var/www/redvinef/views/settings.v.crop.php on line 57
+[07-Feb-2013 00:07:12] PHP Notice:  Undefined variable: boundx in /var/www/redvinef/views/settings.v.crop.php on line 52
+[07-Feb-2013 00:07:12] PHP Notice:  Undefined variable: boundy in /var/www/redvinef/views/settings.v.crop.php on line 57
+[07-Feb-2013 00:09:32] PHP Warning:  getimagesize(/redvinef/userdata/files/tempupload/700000949195495.jpg): failed to open stream: No such file or directory in /var/www/redvinef/views/settings.v.crop.php on line 8
+[07-Feb-2013 00:09:32] PHP Notice:  Undefined variable: boundx in /var/www/redvinef/views/settings.v.crop.php on line 52
+[07-Feb-2013 00:09:32] PHP Notice:  Undefined variable: boundy in /var/www/redvinef/views/settings.v.crop.php on line 57
+[07-Feb-2013 00:09:41] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/redvinef/controllers/upload_avatar.php on line 48
+[07-Feb-2013 00:09:41] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 51
+[07-Feb-2013 00:09:41] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 52
+[07-Feb-2013 00:09:41] PHP Warning:  getimagesize(/redvinef/userdata/files/tempupload/700000949195495.jpg): failed to open stream: No such file or directory in /var/www/redvinef/views/settings.v.crop.php on line 8
+[07-Feb-2013 00:10:05] PHP Warning:  getimagesize(/redvinef/userdata/files/tempupload/700000949195495.jpg): failed to open stream: No such file or directory in /var/www/redvinef/views/settings.v.crop.php on line 8
+[07-Feb-2013 00:10:05] PHP Notice:  Undefined variable: boundx in /var/www/redvinef/views/settings.v.crop.php on line 52
+[07-Feb-2013 00:10:05] PHP Notice:  Undefined variable: boundy in /var/www/redvinef/views/settings.v.crop.php on line 57
+[07-Feb-2013 08:27:06] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 08:27:06] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 08:30:52] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 08:30:52] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 11:19:54] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 11:19:54] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 13:39:53] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 13:39:53] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 14:17:17] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 14:17:17] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 15:23:49] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 15:23:49] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 15:49:41] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 15:49:41] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 15:52:33] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 15:52:33] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 21:11:40] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[07-Feb-2013 21:11:40] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[07-Feb-2013 21:31:33] PHP Notice:  Undefined variable: billy in /var/www/redvinef/controllers/settings.php on line 21
+[07-Feb-2013 21:31:53] PHP Notice:  Undefined variable: billy in /var/www/redvinef/controllers/settings.php on line 21
+[07-Feb-2013 23:26:23] PHP Notice:  Undefined variable: private in /var/www/redvinef/controllers/harvester_post.php on line 394
+[08-Feb-2013 08:38:29] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 08:38:29] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 10:37:25] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 10:37:25] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 11:12:01] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 11:12:01] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 20:13:54] PHP Parse error:  syntax error, unexpected '=' in /var/www/redvinef/controllers/persona.php on line 308
+[08-Feb-2013 20:14:07] PHP Parse error:  syntax error, unexpected '=' in /var/www/redvinef/controllers/persona.php on line 308
+[08-Feb-2013 20:14:11] PHP Parse error:  syntax error, unexpected '=' in /var/www/redvinef/controllers/persona.php on line 308
+[08-Feb-2013 13:57:57] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 13:57:57] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 14:07:36] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 14:07:36] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 14:27:38] PHP Notice:  Undefined variable: commentbody in /var/www/redvinef/views/persona.php on line 120
+[08-Feb-2013 14:27:38] PHP Notice:  Undefined variable: add2 in /var/www/redvinef/views/persona.php on line 151
+[08-Feb-2013 14:27:38] PHP Notice:  Undefined variable: time2 in /var/www/redvinef/views/persona.php on line 151
+[08-Feb-2013 14:27:38] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/persona.php on line 160
+[08-Feb-2013 14:27:38] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/persona.php on line 160
+[08-Feb-2013 14:28:47] PHP Notice:  Undefined variable: add2 in /var/www/redvinef/views/persona.php on line 151
+[08-Feb-2013 14:28:47] PHP Notice:  Undefined variable: time2 in /var/www/redvinef/views/persona.php on line 151
+[08-Feb-2013 14:28:47] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/persona.php on line 160
+[08-Feb-2013 14:28:47] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/persona.php on line 160
+[08-Feb-2013 14:32:57] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 14:32:57] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 14:36:51] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[08-Feb-2013 14:36:51] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[08-Feb-2013 14:36:51] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[08-Feb-2013 14:36:51] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[08-Feb-2013 14:36:52] PHP Notice:  Use of undefined constant userguid - assumed 'userguid' in /var/www/redvinef/controllers/harvester_post.php on line 898
+[08-Feb-2013 15:04:09] PHP Notice:  Undefined variable: content in /var/www/redvinef/controllers/persona.php on line 229
+[08-Feb-2013 15:04:09] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 229
+[08-Feb-2013 15:04:09] PHP Notice:  Undefined variable: content in /var/www/redvinef/controllers/persona.php on line 232
+[08-Feb-2013 15:04:09] PHP Fatal error:  Call to a member function cell_image_size() on a non-object in /var/www/redvinef/controllers/persona.php on line 232
+[08-Feb-2013 15:07:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 227
+[08-Feb-2013 15:07:30] PHP Fatal error:  Call to a member function cell_image_size() on a non-object in /var/www/redvinef/controllers/persona.php on line 230
+[08-Feb-2013 15:10:01] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 230
+[08-Feb-2013 15:10:01] PHP Fatal error:  Call to a member function cell_image_size() on a non-object in /var/www/redvinef/controllers/persona.php on line 233
+[08-Feb-2013 15:24:36] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 15:24:36] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 16:32:40] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 16:32:40] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 17:21:15] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 17:21:15] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 17:37:00] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 17:37:00] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 02:06:36] PHP Warning:  require_once(libraries/initialize.php): failed to open stream: No such file or directory in /var/www/redvinef/controllers/index.php on line 7
+[09-Feb-2013 02:06:36] PHP Fatal error:  require_once(): Failed opening required 'libraries/initialize.php' (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/index.php on line 7
+[08-Feb-2013 18:07:02] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 18:07:02] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 18:09:14] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 18:09:14] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 18:11:27] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/redvinef/controllers/upload_avatar.php on line 48
+[08-Feb-2013 18:11:27] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 51
+[08-Feb-2013 18:11:27] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 52
+[08-Feb-2013 18:27:28] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 18:27:28] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: kstep_num in /var/www/redvinef/controllers/persona.php on line 314
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: kstep_num in /var/www/redvinef/controllers/persona.php on line 318
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: kstep_num in /var/www/redvinef/controllers/persona.php on line 322
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: istep_num in /var/www/redvinef/controllers/persona.php on line 418
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: istep_num in /var/www/redvinef/controllers/persona.php on line 422
+[08-Feb-2013 18:27:31] PHP Notice:  Undefined variable: istep_num in /var/www/redvinef/controllers/persona.php on line 426
+[08-Feb-2013 18:45:38] PHP Fatal error:  Call to undefined function count_likes_topic() in /var/www/redvinef/controllers/persona.php on line 303
+[08-Feb-2013 18:47:09] PHP Fatal error:  Call to undefined function count_likes_topic() in /var/www/redvinef/controllers/persona.php on line 303
+[08-Feb-2013 18:49:31] PHP Fatal error:  Call to undefined function count_likes_topic() in /var/www/redvinef/controllers/persona.php on line 303
+[08-Feb-2013 18:50:56] PHP Fatal error:  Call to undefined function count_likes_topic() in /var/www/redvinef/controllers/persona.php on line 411
+[08-Feb-2013 18:50:59] PHP Fatal error:  Call to undefined function count_likes_topic() in /var/www/redvinef/controllers/persona.php on line 411
+[08-Feb-2013 18:51:58] PHP Catchable fatal error:  Object of class Topic could not be converted to string in /var/www/redvinef/views/persona.php on line 274
+[09-Feb-2013 02:59:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /var/www/redvinef/libraries/db/jumppad.php on line 500
+[08-Feb-2013 19:11:15] PHP Fatal error:  Call to undefined method Jumppad::count_comments_topic() in /var/www/redvinef/controllers/persona.php on line 301
+[09-Feb-2013 03:18:35] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/persona.php on line 293
+[08-Feb-2013 19:18:53] PHP Fatal error:  Call to undefined function format_number() in /var/www/redvinef/views/persona.php on line 368
+[08-Feb-2013 19:48:33] PHP Notice:  Use of undefined constant mychoice - assumed 'mychoice' in /var/www/redvinef/libraries/db/userviews.php on line 43
+[08-Feb-2013 19:48:33] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 342
+[08-Feb-2013 19:48:33] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 348
+[08-Feb-2013 19:48:33] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 352
+[08-Feb-2013 19:53:35] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 321
+[08-Feb-2013 19:53:35] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 431
+[08-Feb-2013 19:55:50] PHP Notice:  Undefined variable: sql_topics in /var/www/redvinef/views/persona.php on line 408
+[08-Feb-2013 19:57:20] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 321
+[08-Feb-2013 19:57:20] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 431
+[08-Feb-2013 19:59:48] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 19:59:48] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 19:59:54] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 321
+[08-Feb-2013 19:59:54] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 431
+[08-Feb-2013 20:00:07] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 321
+[08-Feb-2013 20:00:07] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/persona.php on line 431
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_know_tags in /var/www/redvinef/views/persona.php on line 285
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_know_comments in /var/www/redvinef/views/persona.php on line 291
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_know_curations in /var/www/redvinef/views/persona.php on line 295
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 342
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 348
+[08-Feb-2013 20:00:27] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 352
+[08-Feb-2013 21:14:36] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 21:14:36] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 21:40:54] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 21:40:54] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[08-Feb-2013 21:53:12] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[08-Feb-2013 21:53:12] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 07:24:30] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 07:24:30] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 10:01:05] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 10:01:05] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 10:18:42] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 350
+[09-Feb-2013 10:18:42] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 356
+[09-Feb-2013 10:18:42] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 360
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_know_tags in /var/www/redvinef/views/persona.php on line 293
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_know_comments in /var/www/redvinef/views/persona.php on line 299
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_know_curations in /var/www/redvinef/views/persona.php on line 303
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 350
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 356
+[09-Feb-2013 10:18:44] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 360
+[09-Feb-2013 10:20:05] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 10:20:05] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 10:34:40] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 10:34:40] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 10:57:38] PHP Parse error:  syntax error, unexpected '.' in /var/www/redvinef/views/persona.php on line 16
+[09-Feb-2013 11:09:42] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 11:09:42] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 11:10:53] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /var/www/redvinef/views/persona.php on line 61
+[09-Feb-2013 11:51:11] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 11:51:11] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 11:51:32] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[09-Feb-2013 11:51:32] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[09-Feb-2013 11:51:32] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[09-Feb-2013 11:57:16] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_70x70/700000949195450.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[09-Feb-2013 11:57:16] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_32x32/700000949195450.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[09-Feb-2013 11:57:16] PHP Warning:  file_get_contents(/var/www/redvinef/controllers/img/avatar_70x70/700000949195450.jpg): failed to open stream: No such file or directory in /var/www/redvinef/controllers/upload_avatar.php on line 102
+[09-Feb-2013 11:57:31] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[09-Feb-2013 11:57:31] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[09-Feb-2013 11:57:31] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[09-Feb-2013 12:04:04] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 267
+[09-Feb-2013 12:04:04] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 271
+[09-Feb-2013 12:16:18] PHP Parse error:  syntax error, unexpected '}' in /var/www/redvinef/views/library.php on line 284
+[09-Feb-2013 12:16:49] PHP Notice:  Undefined variable: user_array in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/redvinef/views/library.php on line 285
+[09-Feb-2013 12:16:49] PHP Warning:  array_push() expects parameter 1 to be array, null given in /var/www/redvinef/views/library.php on line 286
+[09-Feb-2013 12:16:49] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 312
+[09-Feb-2013 12:16:49] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 316
+[09-Feb-2013 12:18:10] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 306
+[09-Feb-2013 12:18:10] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 310
+[09-Feb-2013 12:19:05] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 306
+[09-Feb-2013 12:19:05] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 310
+[09-Feb-2013 12:31:58] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 307
+[09-Feb-2013 12:31:58] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 311
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable:  in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Undefined variable: 1 in /var/www/redvinef/views/library.php on line 298
+[09-Feb-2013 12:34:19] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 310
+[09-Feb-2013 12:34:19] PHP Fatal error:  Call to a member function cell_image() on a non-object in /var/www/redvinef/views/library.php on line 314
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:29] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 261
+[09-Feb-2013 12:37:30] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:37:30] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 278
+[09-Feb-2013 12:45:17] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 12:45:17] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 265
+[09-Feb-2013 12:56:46] PHP Notice:  Undefined variable: comment in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 12:56:46] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/library.php on line 282
+[09-Feb-2013 13:09:21] PHP Notice:  Undefined variable: sort_relevance_active in /var/www/redvinef/views/library.php on line 191
+[09-Feb-2013 16:13:45] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 16:13:45] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 18:11:48] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 18:11:48] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 18:25:59] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 18:25:59] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[09-Feb-2013 22:20:47] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[09-Feb-2013 22:20:47] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[10-Feb-2013 09:39:08] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[10-Feb-2013 09:39:08] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[10-Feb-2013 10:23:58] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[10-Feb-2013 10:23:58] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[10-Feb-2013 10:26:26] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/libraries/AutoEmbed.class.php on line 257
+[10-Feb-2013 10:26:26] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/libraries/AutoEmbed.class.php on line 261
+[10-Feb-2013 10:26:27] PHP Notice:  Undefined variable: h3tag in /var/www/redvinef/views/viewcontent.php on line 350
+[10-Feb-2013 10:26:27] PHP Notice:  Undefined variable: myimage in /var/www/redvinef/views/viewcontent.php on line 359
+[10-Feb-2013 10:28:28] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/libraries/AutoEmbed.class.php on line 257
+[10-Feb-2013 10:28:28] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/libraries/AutoEmbed.class.php on line 261
+[10-Feb-2013 10:28:28] PHP Notice:  Undefined variable: h3tag in /var/www/redvinef/views/viewcontent.php on line 350
+[10-Feb-2013 10:28:28] PHP Notice:  Undefined variable: myimage in /var/www/redvinef/views/viewcontent.php on line 359
+[10-Feb-2013 10:32:22] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:33:30] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:35:43] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:37:10] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:37:37] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:39:22] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 10:40:45] PHP Notice:  Undefined variable: imageURL in /var/www/redvinef/views/viewcontent.php on line 360
+[10-Feb-2013 11:12:04] PHP Notice:  Use of undefined constant SITE_PATH - assumed 'SITE_PATH' in /var/www/redvinef/libraries/functions.php on line 77
+[10-Feb-2013 11:12:04] PHP Warning:  fopen(SITE_PATH/logs/log.txt): failed to open stream: No such file or directory in /var/www/redvinef/libraries/functions.php on line 79
+[10-Feb-2013 11:20:41] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_70x70/1004833642.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 11:20:41] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_32x32/1004833642.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 11:20:41] PHP Warning:  file_get_contents(/var/www/redvinef/controllers/img/avatar_70x70/1004833642.jpg): failed to open stream: No such file or directory in /var/www/redvinef/controllers/upload_avatar.php on line 102
+[10-Feb-2013 11:21:25] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_70x70/1004833642.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 11:21:25] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_32x32/1004833642.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 11:21:25] PHP Warning:  file_get_contents(/var/www/redvinef/controllers/img/avatar_70x70/1004833642.jpg): failed to open stream: No such file or directory in /var/www/redvinef/controllers/upload_avatar.php on line 102
+[10-Feb-2013 11:52:02] PHP Warning:  imagecreatefromjpeg(): 'http://ht2.salemweb.net/godtube/2013/01/25/426413-005-tn.jpg' is not a valid JPEG file in /var/www/redvinef/libraries/image_resize_fns.php on line 12
+[10-Feb-2013 11:52:55] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 11:52:55] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:12:19] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:12:19] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:12:45] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:12:45] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:51:26] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:51:26] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:51:43] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_70x70/700000949195495.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 12:51:43] PHP Warning:  imagejpeg(): Unable to open '/var/www/redvinef/controllers/img/avatar_32x32/700000949195495.jpg' for writing: No such file or directory in /var/www/redvinef/libraries/SimpleImage.php on line 46
+[10-Feb-2013 12:51:43] PHP Warning:  file_get_contents(/var/www/redvinef/controllers/img/avatar_70x70/700000949195495.jpg): failed to open stream: No such file or directory in /var/www/redvinef/controllers/upload_avatar.php on line 102
+[10-Feb-2013 12:51:43] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 12:51:43] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:15] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:15] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:26] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:26] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:42] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:42] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:49] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:01:49] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:08:28] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:08:28] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:08:39] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:08:39] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:09:00] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:09:00] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:11:29] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:11:29] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:19] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:19] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:24] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:24] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:34] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:34] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:42] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:24:42] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:32:16] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:32:16] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:32:39] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:32:39] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:33:07] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:33:07] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:33:50] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:33:50] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:34:17] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:34:17] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:34:31] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 13:34:31] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 14:31:39] PHP Notice:  Undefined variable: followers_count in /var/www/redvinef/views/connections.php on line 92
+[10-Feb-2013 14:31:39] PHP Notice:  Undefined variable: following_count in /var/www/redvinef/views/connections.php on line 96
+[10-Feb-2013 14:32:29] PHP Notice:  Undefined variable: followers_count in /var/www/redvinef/views/connections.php on line 92
+[10-Feb-2013 14:32:29] PHP Notice:  Undefined variable: following_count in /var/www/redvinef/views/connections.php on line 96
+[10-Feb-2013 14:39:51] PHP Notice:  Undefined variable: followers_array in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 14:39:51] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 14:40:34] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:05:26] PHP Warning:  asort() expects parameter 1 to be array, null given in /var/www/redvinef/controllers/persona.php on line 314
+[10-Feb-2013 15:05:26] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:05:46] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:05:48] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:11:08] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:11:10] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/views/connections.php on line 198
+[10-Feb-2013 15:16:46] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 15:16:46] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 15:16:46] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 15:16:54] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 15:16:54] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 15:16:54] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 15:16:56] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 15:16:56] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 15:16:56] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: thecomments in /var/www/redvinef/views/thread.php on line 400
+[10-Feb-2013 15:39:25] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 400
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: thecomments in /var/www/redvinef/views/thread.php on line 410
+[10-Feb-2013 15:39:25] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 410
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: discoverer in /var/www/redvinef/views/thread.php on line 410
+[10-Feb-2013 15:39:25] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 410
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 411
+[10-Feb-2013 15:39:25] PHP Notice:  Undefined variable: thecomments in /var/www/redvinef/views/thread.php on line 418
+[10-Feb-2013 15:39:25] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 418
+[10-Feb-2013 16:26:50] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 16:26:50] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 16:26:50] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 16:33:37] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:33:37] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:34:15] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:34:15] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:34:22] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:34:22] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 16:47:16] PHP Notice:  Undefined property: Session::$userid in /var/www/redvinef/controllers/jumppad.php on line 171
+[11-Feb-2013 01:05:28] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/libraries/db/user_follows.php on line 39
+[10-Feb-2013 17:12:06] PHP Notice:  Undefined variable: elite in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Undefined variable: elite in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Undefined variable: elite in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Undefined variable: elite in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Undefined variable: elite in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:06] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:43] PHP Notice:  Undefined property: User_follows::$userguid in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:43] PHP Notice:  Undefined property: User_follows::$userguid in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:43] PHP Notice:  Undefined property: User_follows::$userguid in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:43] PHP Notice:  Undefined property: User_follows::$userguid in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:12:43] PHP Notice:  Undefined property: User_follows::$userguid in /var/www/redvinef/views/connections.php on line 205
+[10-Feb-2013 17:14:29] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 17:14:29] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 17:14:29] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 17:22:00] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 17:22:00] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 17:22:00] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 17:26:12] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:26:12] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:26:51] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:28:46] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:29:21] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:30:29] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:30:29] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:31:14] PHP Parse error:  syntax error, unexpected '.' in /var/www/redvinef/views/connections.php on line 259
+[10-Feb-2013 17:31:41] PHP Notice:  Undefined variable: locaion in /var/www/redvinef/views/connections.php on line 259
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:33:03] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:34:39] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:36:37] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:36:37] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:36:37] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:36:37] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:41:24] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:41:24] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:41:24] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:41:24] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 32
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:43:03] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:45:40] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:45:40] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:45:40] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:45:40] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:48:18] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:48:18] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:48:18] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:48:18] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:49:58] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:50:12] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:51:09] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:51:09] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:51:09] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:51:09] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined variable: file_url in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/upload_docs.php on line 31
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:55:32] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:57:15] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:57:15] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:57:15] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:57:15] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:57:48] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:57:48] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:57:48] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:57:48] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:59:37] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 17:59:37] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 17:59:37] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 17:59:37] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:00:49] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 18:00:49] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 18:00:49] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:00:49] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:02:40] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 18:02:40] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 18:02:40] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:02:40] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:05:22] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 18:05:22] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 18:05:22] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:05:22] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:12:10] PHP Notice:  Undefined index: private in /var/www/redvinef/controllers/settings.php on line 129
+[10-Feb-2013 18:12:10] PHP Notice:  Undefined variable: topicid in /var/www/redvinef/controllers/settings.php on line 243
+[10-Feb-2013 18:12:10] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:12:10] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:15:19] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:15:19] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:15:23] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:15:23] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:16:52] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:16:52] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:46:19] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:46:19] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:14] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:14] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:30] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:30] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:43] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:43] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:57] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:49:57] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:50:20] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:50:20] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:51:15] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:51:15] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:51:52] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 18:51:52] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 19:01:31] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 19:01:31] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 19:01:37] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 19:01:37] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 19:32:43] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:32:43] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:32:43] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 19:32:45] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:32:45] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:32:45] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 19:45:02] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:45:02] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:45:02] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 19:45:05] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:45:05] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:45:05] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 19:47:35] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:47:35] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:47:35] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 19:47:37] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 19:47:37] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 19:47:37] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 20:40:29] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 20:40:29] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 20:40:29] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 20:40:32] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 20:40:32] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 20:40:32] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 04:42:49] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/persona.php on line 323
+[10-Feb-2013 20:45:28] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 20:45:28] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 20:45:28] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 20:45:29] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[10-Feb-2013 20:45:29] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[10-Feb-2013 20:45:29] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[10-Feb-2013 21:22:24] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 21:22:24] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 21:22:38] PHP Notice:  Undefined variable: upload_input_field_name in /var/www/redvinef/controllers/settings.php on line 130
+[10-Feb-2013 21:22:38] PHP Notice:  Undefined index:  in /var/www/redvinef/controllers/settings.php on line 130
+[10-Feb-2013 21:22:38] PHP Warning:  file_get_contents(): Filename cannot be empty in /var/www/redvinef/controllers/settings.php on line 130
+[10-Feb-2013 21:22:38] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 21:22:38] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[10-Feb-2013 21:37:00] PHP Notice:  Undefined variable: currentDiscover in /var/www/redvinef/views/main_header_div.php on line 35
+[10-Feb-2013 21:37:00] PHP Notice:  Undefined variable: currentPersona in /var/www/redvinef/views/main_header_div.php on line 36
+[10-Feb-2013 21:37:00] PHP Notice:  Undefined variable: currentSetting in /var/www/redvinef/views/main_header_div.php on line 37
+[10-Feb-2013 21:47:10] PHP Notice:  Undefined variable: cell in /var/www/redvinef/views/cell.php on line 605
+[10-Feb-2013 21:55:07] PHP Warning:  include(pdf_file.php&pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:55:07] PHP Warning:  include(): Failed opening 'pdf_file.php&pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:56:01] PHP Warning:  include(pdf_file.php?pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:56:01] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:56:20] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:56:20] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:57:01] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:57:01] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:57:54] PHP Warning:  include(pdf_file.php?pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:57:54] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=%PDF-1.3
+%Äåòåë§ó ÐÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xÕ\moÇþ~¿b­* Äô½éÄ-R·ý"¨è‡º (òd1¦I…¤¢¦Aÿ{gïvgvoç–{´À)
+Ó25³óöÌËÎÝÏâøY$S‘Ç¢¨JQe¹Ø×âŸb+^¾9$byqó¿ÃR~¯ùø"‘¿PU¹X~¾ñ$N«2ºZŠ¤ýîø3ŸÍD’Š«OâåÕU2‰áw¯nÄøíâC-ž‹«ŸÄ_¯ZÖÉ¨%)l’E–M’´`é&>¢‘yÎ.Ñ|:ÉÓ¼ä»»	 jÈ\”³ÉŒ—»"™•Â+$Ÿ‚0	(<’
+×úmÕ[¤Þ8í¡zŽ•RmŠª]Ö›Íäîöîy¤µ«9åUcÛ†ScZ›SfÖ†d8%³¨µ"±z»_oõê•¡É«ÊD%y¥ ”ŠåEÆpxÈÉÌ‘+}™Ä/“LÌ^¥Å«8oPºŒÞ)ç­¶y\yØzDÌÓb2«
+p^IÅßvûWâûúææ‡åßëí×µcÏN' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:59:32] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 21:59:32] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 326
+[10-Feb-2013 22:03:53] PHP Warning:  file_get_contents() expects parameter 2 to be boolean, resource given in /var/www/redvinef/controllers/viewcontent.php on line 331
+[10-Feb-2013 22:03:53] PHP Fatal error:  Call to undefined function display_file() in /var/www/redvinef/controllers/viewcontent.php on line 334
+[10-Feb-2013 22:04:36] PHP Fatal error:  Call to undefined function display_file() in /var/www/redvinef/controllers/viewcontent.php on line 334
+[10-Feb-2013 22:06:36] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:06:36] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:08:46] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:08:46] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:14:07] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:14:07] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:18:55] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:18:55] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:19:02] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:19:02] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:20:29] PHP Warning:  include(pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>): failed to open stream: No such file or directory in /var/www/redvinef/controllers/viewcontent.php on line 333
+[10-Feb-2013 22:20:29] PHP Warning:  include(): Failed opening 'pdf_file.php?pdfFile=http://23.23.245.230/redvinef/userdata/files/1004833642/celllisting222.pdf
+					</div>' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:/usr/share/php/smarty/libs') in /var/www/redvinef/controllers/viewcontent.php on line 333
+[11-Feb-2013 06:22:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[11-Feb-2013 06:22:59] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[11-Feb-2013 06:25:20] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[11-Feb-2013 06:25:22] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[11-Feb-2013 06:25:56] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[11-Feb-2013 06:26:49] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/redvinef/controllers/pdf_file.php on line 3
+[10-Feb-2013 22:41:54] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 402
+[10-Feb-2013 22:41:54] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 522
+[10-Feb-2013 22:42:43] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 402
+[10-Feb-2013 22:42:43] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 522
+[10-Feb-2013 22:45:35] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 402
+[10-Feb-2013 22:45:35] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 405
+[10-Feb-2013 22:45:35] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 522
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 75
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: cell_selected in /var/www/redvinef/controllers/thread.php on line 114
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 183
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 249
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:29] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: jumppadcrumb in /var/www/redvinef/controllers/thread.php on line 278
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: global_active in /var/www/redvinef/controllers/thread.php on line 280
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: personal_active in /var/www/redvinef/controllers/thread.php on line 281
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: mytopic in /var/www/redvinef/controllers/thread.php on line 291
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: topicarray in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:29] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 375
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: parent_title in /var/www/redvinef/controllers/thread.php on line 376
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: relcontent in /var/www/redvinef/controllers/thread.php on line 377
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 395
+[11-Feb-2013 06:49:29] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 655
+[11-Feb-2013 06:49:29] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 655
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 75
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: cell_selected in /var/www/redvinef/controllers/thread.php on line 114
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 183
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 249
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:31] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: jumppadcrumb in /var/www/redvinef/controllers/thread.php on line 278
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: global_active in /var/www/redvinef/controllers/thread.php on line 280
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: personal_active in /var/www/redvinef/controllers/thread.php on line 281
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: mytopic in /var/www/redvinef/controllers/thread.php on line 291
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: topicarray in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:31] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:31] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 375
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: parent_title in /var/www/redvinef/controllers/thread.php on line 376
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: relcontent in /var/www/redvinef/controllers/thread.php on line 377
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 395
+[11-Feb-2013 06:49:31] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 655
+[11-Feb-2013 06:49:31] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 655
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 75
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: cell_selected in /var/www/redvinef/controllers/thread.php on line 114
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: create_thread in /var/www/redvinef/controllers/thread.php on line 183
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 249
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: get_tag_trends in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:33] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 252
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: jumppadcrumb in /var/www/redvinef/controllers/thread.php on line 278
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: global_active in /var/www/redvinef/controllers/thread.php on line 280
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: personal_active in /var/www/redvinef/controllers/thread.php on line 281
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: mytopic in /var/www/redvinef/controllers/thread.php on line 291
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: topicarray in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:33] PHP Warning:  Invalid argument supplied for foreach() in /var/www/redvinef/controllers/thread.php on line 298
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:33] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 360
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 375
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: parent_title in /var/www/redvinef/controllers/thread.php on line 376
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: relcontent in /var/www/redvinef/controllers/thread.php on line 377
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: parent_commentid in /var/www/redvinef/controllers/thread.php on line 395
+[11-Feb-2013 06:49:33] PHP Notice:  Undefined variable: session in /var/www/redvinef/controllers/thread.php on line 655
+[11-Feb-2013 06:49:33] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/controllers/thread.php on line 655
+[10-Feb-2013 22:49:58] PHP Notice:  Undefined property: Comments::$avatar in /var/www/redvinef/views/thread.php on line 522
+[10-Feb-2013 22:52:35] PHP Notice:  Undefined variable: cell in /var/www/redvinef/views/cell.php on line 605
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: discoverer in /var/www/redvinef/views/thread.php on line 402
+[10-Feb-2013 22:56:00] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 402
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: discoverer in /var/www/redvinef/views/thread.php on line 405
+[10-Feb-2013 22:56:00] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 405
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: thecomments in /var/www/redvinef/views/thread.php on line 412
+[10-Feb-2013 22:56:00] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 412
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: discoverer in /var/www/redvinef/views/thread.php on line 412
+[10-Feb-2013 22:56:00] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 412
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: level_array in /var/www/redvinef/views/thread.php on line 413
+[10-Feb-2013 22:56:00] PHP Notice:  Undefined variable: thecomments in /var/www/redvinef/views/thread.php on line 420
+[10-Feb-2013 22:56:00] PHP Notice:  Trying to get property of non-object in /var/www/redvinef/views/thread.php on line 420
+[11-Feb-2013 08:24:15] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:24:15] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:24:15] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 08:24:30] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:24:30] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:24:30] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 08:26:10] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:26:10] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:26:10] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 08:28:55] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:28:55] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:28:55] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 08:33:19] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:33:19] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:33:19] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 08:33:43] PHP Notice:  Undefined variable: count_interest_tags in /var/www/redvinef/views/persona.php on line 352
+[11-Feb-2013 08:33:43] PHP Notice:  Undefined variable: count_interest_comments in /var/www/redvinef/views/persona.php on line 358
+[11-Feb-2013 08:33:43] PHP Notice:  Undefined variable: count_interest_curations in /var/www/redvinef/views/persona.php on line 362
+[11-Feb-2013 14:58:52] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[11-Feb-2013 14:58:52] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[11-Feb-2013 14:58:52] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[11-Feb-2013 14:58:52] PHP Notice:  Undefined offset: 0 in /var/www/redvinef/controllers/harvester_post.php on line 826
+[11-Feb-2013 15:55:50] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[11-Feb-2013 15:55:50] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[11-Feb-2013 21:21:48] PHP Notice:  Undefined variable: private in /var/www/redvinef/controllers/harvester_post.php on line 404
+[12-Feb-2013 11:36:20] PHP Notice:  Undefined variable: private in /var/www/redvinef/controllers/harvester_post.php on line 404
+[12-Feb-2013 11:36:33] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:36:33] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:36:56] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:36:56] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:06] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/redvinef/controllers/upload_avatar.php on line 48
+[12-Feb-2013 11:37:06] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 51
+[12-Feb-2013 11:37:06] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /var/www/redvinef/controllers/upload_avatar.php on line 52
+[12-Feb-2013 11:37:06] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:06] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:19] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:19] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:37] PHP Notice:  Undefined variable: time3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:37:37] PHP Notice:  Undefined variable: add3 in /var/www/redvinef/views/settings.v.php on line 123
+[12-Feb-2013 11:39:58] PHP Notice:  Undefined variable: private in /var/www/redvinef/controllers/harvester_post.php on line 404
+[12-Feb-2013 11:42:03] PHP Notice:  Undefined variable: private in /var/www/redvinef/controllers/harvester_post.php on line 404
+[12-Feb-2013 16:24:54] PHP Deprecated:  Function eregi() is deprecated in /var/www/redvinef/libraries/functions.php on line 743
+[13-Feb-2013 00:34:53] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 45
+[13-Feb-2013 00:43:48] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 00:44:55] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 36
+[13-Feb-2013 00:45:30] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 36
+[13-Feb-2013 00:46:21] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 36
+[13-Feb-2013 00:49:29] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 36
+[13-Feb-2013 00:49:39] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 36
+[13-Feb-2013 00:52:43] PHP Parse error:  syntax error, unexpected T_ELSE in /var/www/redvinef/controllers/approve.php on line 35
+[13-Feb-2013 04:05:53] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:06:29] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:09:05] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:11:06] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:11:35] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/redvinef/libraries/session.php on line 30
+[13-Feb-2013 04:12:15] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:13:27] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 53
+[13-Feb-2013 04:14:27] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:14:50] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 53
+[13-Feb-2013 04:15:18] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 53
+[13-Feb-2013 04:16:06] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:16:43] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:17:39] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 54
+[13-Feb-2013 04:18:27] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 41
+[13-Feb-2013 04:22:33] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 04:23:42] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 56
+[13-Feb-2013 04:25:39] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 56
+[13-Feb-2013 04:27:40] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 56
+[13-Feb-2013 04:28:04] PHP Parse error:  syntax error, unexpected T_STRING in /var/www/redvinef/controllers/approve.php on line 56
+[13-Feb-2013 04:28:52] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 04:28:53] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 04:30:05] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 04:31:11] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:31:38] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:33:19] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:36:02] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 45
+[13-Feb-2013 04:37:17] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 45
+[13-Feb-2013 04:38:11] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:38:28] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:38:30] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 39
+[13-Feb-2013 04:38:53] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[13-Feb-2013 04:38:54] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 42
+[12-Feb-2013 20:39:40] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 14
+[12-Feb-2013 20:39:40] PHP Notice:  Undefined index: sucode in /var/www/redvinef/controllers/approve.php on line 15
+[12-Feb-2013 20:52:10] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 17
+[12-Feb-2013 20:52:10] PHP Notice:  Undefined index: sucode in /var/www/redvinef/controllers/approve.php on line 18
+[12-Feb-2013 20:52:10] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 22
+[12-Feb-2013 20:52:10] PHP Notice:  Undefined index: name in /var/www/redvinef/controllers/approve.php on line 24
+[12-Feb-2013 20:52:52] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 17
+[12-Feb-2013 20:52:52] PHP Notice:  Undefined index: sucode in /var/www/redvinef/controllers/approve.php on line 18
+[12-Feb-2013 20:52:52] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 22
+[12-Feb-2013 20:52:52] PHP Notice:  Undefined index: name in /var/www/redvinef/controllers/approve.php on line 24
+[12-Feb-2013 20:53:31] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 84
+[12-Feb-2013 20:54:01] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 17
+[12-Feb-2013 20:54:01] PHP Notice:  Undefined index: sucode in /var/www/redvinef/controllers/approve.php on line 18
+[12-Feb-2013 20:54:01] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 22
+[13-Feb-2013 04:56:40] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /var/www/redvinef/controllers/approve.php on line 17
+[12-Feb-2013 20:57:00] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 20:57:06] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 23
+[12-Feb-2013 20:57:06] PHP Notice:  Undefined index: sucode in /var/www/redvinef/controllers/approve.php on line 24
+[12-Feb-2013 20:57:06] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 28
+[12-Feb-2013 20:57:44] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 20:57:50] PHP Notice:  Undefined index: uname in /var/www/redvinef/controllers/approve.php on line 28
+[12-Feb-2013 20:58:32] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 20:58:35] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 21:00:46] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 71
+[12-Feb-2013 21:00:46] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 21:00:48] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 71
+[12-Feb-2013 21:00:48] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 90
+[12-Feb-2013 21:04:50] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 74
+[12-Feb-2013 21:04:50] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 93
+[12-Feb-2013 21:04:54] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 74
+[12-Feb-2013 21:04:54] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 93
+[12-Feb-2013 21:07:27] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:07:27] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 94
+[12-Feb-2013 21:07:31] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:07:31] PHP Notice:  Undefined variable: resultgrp in /var/www/redvinef/controllers/approve.php on line 94
+[12-Feb-2013 21:08:30] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:08:32] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:00] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: private_group_title in /var/www/redvinef/controllers/approve.php on line 99
+[12-Feb-2013 21:10:02] PHP Notice:  Undefined index: privateid in /var/www/redvinef/controllers/approve.php on line 100
+[12-Feb-2013 21:11:12] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:11:14] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:20:05] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:20:08] PHP Notice:  Undefined variable: index_part in /var/www/redvinef/controllers/approve.php on line 75
+[12-Feb-2013 21:26:44] PHP Notice:  Undefined variable: private_cell_name in /var/www/redvinef/controllers/approve.php on line 72
+[12-Feb-2013 21:26:47] PHP Notice:  Undefined variable: private_cell_name in /var/www/redvinef/controllers/approve.php on line 72
+[13-Feb-2013 15:01:29] PHP Notice:  Undefined index: first_name in /var/www/redvinef/controllers/approve.php on line 143
+[13-Feb-2013 15:01:29] PHP Notice:  Undefined index: last_name in /var/www/redvinef/controllers/approve.php on line 144
+[13-Feb-2013 15:01:29] PHP Fatal error:  Call to undefined function whichserver() in /var/www/redvinef/controllers/approve.php on line 174
+[13-Feb-2013 15:06:36] PHP Notice:  Undefined variable: first_name in /var/www/redvinef/controllers/approve.php on line 82
+[13-Feb-2013 15:06:36] PHP Notice:  Undefined variable: last_name in /var/www/redvinef/controllers/approve.php on line 83
+[13-Feb-2013 15:07:44] PHP Notice:  Undefined variable: firstname in /var/www/redvinef/controllers/approve.php on line 206
+[13-Feb-2013 15:07:44] PHP Notice:  Undefined variable: lastname in /var/www/redvinef/controllers/approve.php on line 207
+[13-Feb-2013 15:14:01] PHP Notice:  Undefined variable: firstname in /var/www/redvinef/controllers/approve.php on line 206
+[13-Feb-2013 15:14:01] PHP Notice:  Undefined variable: lastname in /var/www/redvinef/controllers/approve.php on line 207

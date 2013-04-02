@@ -1,0 +1,394 @@
+/*-------------------------------------------
+Application: SO·KNO
+File: styles.less
+Company: Live Editions, Inc.
+Version: 1.6
+Copyright: Kevin Mooney Jr
+Copyright: 2012 jQuery Foundation and other contributors Licensed MIT | jQuery UI - v1.9.1
+--------------------------------------------- */
+/* Fonts
+--------------------------------------------- */
+@font-face {
+  font-family: "MuseoSans500";
+  src: url(../fonts/museosans_2-webfont.eot);
+  src: url(../fonts/museosans_2-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosans_2-webfont.woff) format("woff"), url(../fonts/museosans_2-webfont.ttf) format("truetype"), url(../fonts/museosans_2-webfont.svg#museo_sans_500regular) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #2e3234; }
+
+p {
+  font-size: 13px;
+  color: #9ca3a7;
+  margin: 6px 0 24px 0; }
+  p span {
+    color: #94c7e5;
+    font-style: italic;
+    margin-top: 4px;
+    display: block; }
+
+strong {
+  font-weight: bold;
+  color: #d97023; }
+
+h1 {
+  background: url(../img/ui/logo-sokno.png) no-repeat 0 0;
+  width: 145px;
+  height: 24px;
+  display: block;
+  text-indent: -9999px; }
+
+h2, h3, h4 {
+  font-family: "MuseoSans500", Helvetica, Arial, sans-serif !important; }
+
+h4 em {
+  font-size: 14px;
+  color: #2a8ecb; }
+
+/* LAYOUT
+----------------------------------*/
+#bookmarklet {
+  width: 620px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  -webkit-box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.35);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+#header {
+  background: #50575b;
+  padding: 24px;
+  position: relative; }
+
+#header h3 {
+  float: right;
+  position: absolute;
+  right: 24px;
+  top: 30px;
+  color: white; }
+
+#content {
+  padding: 24px; }
+
+.block-harvest {
+  float: left;
+  width: 572px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px dashed #c7cbcd; }
+  .block-harvest.first, .block-harvest:first-child {
+    padding-bottom: 0 !important; }
+
+#jumppad {
+  float: left;
+  margin-right: 29px !important; }
+
+#knowcell {
+  float: left;
+  padding: 5px 0; }
+
+#knowtitle {
+  float: left;
+  clear: both;
+  margin-top: 24px !important; }
+
+input[type="text"] {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid #c7cbcd;
+  width: 572px;
+  padding: 12px !important;
+  height: 36px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 15px;
+  color: #9ca3a7; }
+
+input#noimage {
+  margin-right: 6px; }
+
+select#topics,
+#knowcell select {
+  width: 372px !important; }
+
+div.button.input {
+  display: block;
+  float: right;
+  font-family: "MuseoSans500", Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  padding-right: 13px;
+  background: transparent url(../img/ui/sprites-buttonends.png) no-repeat right -114px; }
+  div.button.input.orange {
+    background-position: right 0; }
+    div.button.input.orange input[type="submit"] {
+      background-position: 0 0; }
+  div.button.input:hover {
+    background-position: right -38px;
+    cursor: pointer; }
+    div.button.input:hover input[type="submit"] {
+      background-position: 0 -38px; }
+  div.button.input input[type="submit"] {
+    display: block;
+    color: white;
+    line-height: 18px;
+    font-size: inherit;
+    margin: 0 !important;
+    padding-left: 18px;
+    height: 38px;
+    background: transparent url(../img/ui/sprites-buttons.png) no-repeat 0 -114px;
+    border: none !important;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px; }
+    div.button.input input[type="submit"]:hover {
+      background-position: 0 -38px;
+      cursor: pointer; }
+
+/* UI
+----------------------------------*/
+.ui-helper-hidden {
+  display: none; }
+
+.ui-helper-hidden-accessible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none; }
+
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+  content: "";
+  display: table; }
+
+.ui-helper-clearfix:after {
+  clear: both; }
+
+.ui-helper-clearfix {
+  zoom: 1; }
+
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0); }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+  cursor: default !important; }
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black; }
+
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  /* #8656 */
+  cursor: default; }
+
+/* workarounds */
+* html .ui-autocomplete {
+  width: 1px; }
+
+#photo .ui-button {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin-right: .1em;
+  cursor: pointer;
+  text-align: center;
+  zoom: 1;
+  overflow: visible;
+  background: #2e3234;
+  filter: alpha(opacity=50);
+  opacity: 0.5; }
+
+#jumppad .ui-button {
+  font-size: 15px;
+  color: #f2f2f2;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin-right: .1em;
+  cursor: pointer;
+  text-align: center;
+  zoom: 1;
+  overflow: visible;
+  background: #9ca3a7; }
+
+/* the overflow property removes extra width in IE */
+#photo .ui-button:hover,
+#photo .ui-button:active,
+#photo .ui-button:link,
+#photo .ui-state-active {
+  text-decoration: none;
+  filter: alpha(opacity=100);
+  opacity: 1; }
+
+#jumppad .ui-button:hover {
+  text-decoration: none;
+  color: white;
+  background: #2a8ecb; }
+
+#jumppad .ui-button:link,
+#jumppad .ui-button:visited,
+#jumppad .ui-button:active,
+#jumppad .ui-state-active {
+  text-decoration: none;
+  color: white;
+  background: #d97023; }
+
+/*button text element */
+.ui-button .ui-button-text {
+  display: block;
+  line-height: 1.4; }
+
+#photo .ui-button-text-only .ui-button-text {
+  padding: 0 !important; }
+
+.ui-button-text-only .ui-button-text {
+  padding: 0.4em 1em; }
+
+input.ui-button {
+  padding: 0.4em 1em; }
+
+/*button sets*/
+.ui-buttonset {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+#jumppad .ui-corner-left {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+#jumppad .ui-corner-right {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-right: 0 !important; }
+
+#photo .ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: 28px;
+  float: left; }
+
+#photo .ui-corner-right {
+  margin: 0 !important; }
+
+#jumppad.ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: -.3em; }
+
+/* workarounds */
+button.ui-button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* reset extra padding in Firefox */
+.ui-menu {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+  display: block;
+  outline: none; }
+
+.ui-menu .ui-menu {
+  margin-top: -3px;
+  position: absolute; }
+
+.ui-menu .ui-menu-item {
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+  width: 100%; }
+
+.ui-menu .ui-menu-divider {
+  margin: 5px -2px 5px -2px;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-width: 1px 0 0 0; }
+
+.ui-menu .ui-menu-item a {
+  text-decoration: none;
+  display: block;
+  padding: 2px 0.4em;
+  line-height: 1.5;
+  zoom: 1;
+  font-weight: normal; }
+
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+  font-weight: normal;
+  margin: -1px; }
+
+.ui-menu .ui-state-disabled {
+  font-weight: normal;
+  margin: 0.4em 0 0.2em;
+  line-height: 1.5; }
+
+.ui-menu .ui-state-disabled a {
+  cursor: default; }
+
+/* CLEAR
+--------------------------------------------- */
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix {
+  zoom: 1; }

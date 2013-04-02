@@ -1,0 +1,104 @@
+/*-------------------------------------------
+Application: SO·KNO
+File: layout.css
+Company: Live Editions, Inc.
+Version: 1.0
+Copyright: Kevin Mooney Jr
+--------------------------------------------- */
+
+/* Global
+--------------------------------------------- */
+body {
+  min-width: 960px;
+}
+
+/* Container
+--------------------------------------------- */
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/* Columns
+----------------------------------------------*/
+.col_25,
+.col_50,
+.col_75,
+.col_100 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.col_25 {
+	width: 225px;
+}
+
+.col_50 {
+	width: 460px;
+}
+
+.col_75 {
+	width: 700px;
+}
+
+.col_100 {
+	width: 940px;
+}
+
+.col_max {
+	width: 960px;
+}
+
+/* Margins
+--------------------------------------------- */
+.stripleft {
+	margin-left: 0;
+}
+
+.stripright {
+	margin-right: 0;
+}
+
+.strip {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Clear Floats
+--------------------------------------------- */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+

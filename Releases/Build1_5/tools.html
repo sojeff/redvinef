@@ -1,0 +1,147 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | About</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	
+	
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.watermark.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.autosize-min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="about.html"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li><a href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</nav>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- ABOUT -->
+<section class="jumppads">
+	<hgroup>
+		<h3>Learn More</h3>
+	</hgroup>
+	<ul class="nav">
+		<li><a href="about.html">What is SO:KNO?</a></li>
+		<li><a href="guide.html">Guide</a></li>
+		<li class='current'><a class='current' href="tools.html">Tools</a></li>
+		<li><a href="team.html">The Team</a></li>
+		<li><a href="support.html">Contact &amp; Support</a></li>
+	</ul>
+</section>
+	<!-- ABOUT -->
+<section class="jumppads">
+	<hgroup>
+	</hgroup>
+	<ul class="nav">
+		<li><a href="terms.html">Terms of Service</a></li>
+		<li><a href="privacy.html">Privacy Policy</a></li>
+	</ul>
+</section>
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<h3>Tools</h3>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div id="content-article" class="clearfix">
+		<h3 class="title">The SO:KNO Harvester</h3>
+		<div id="harvester">
+			<a onclick="alert('Drag me to the bookmarks bar'); return false;" href="javascript:(function()%7Bf='http://23.23.245.230/saveit.php?guid=700000949195448&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&notes='+encodeURIComponent(''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+'&v=6&';a=function()%7Bif(!window.open(f+'noui=1&jump=doclose','soKno6','location=1,links=0,scrollbars=0,toolbar=0'))location.href=f+'jump=yes'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()" title="SO:KNO Harvest" class="button">
+				<span><img src="../img/ui/button-harvest.png" alt="SO:KNO Harvester"></span>
+			</a>
+		</div>
+		<h3>Installing the "Harvester" tool in your Browser</h3>
+		<ol>
+			<li>Display your Bookmarks by clicking <strong>View > Show Bookmarks Bar</strong> or View > Toolbars</li>
+			<li>Drag the button image to your Bookmarks bar</li>
+			<li>When you are browsing the web, push the "Harvester" button to collect Knowledge to your JumpPad</li>
+		</ol>
+	</div>
+
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+</body>
+</html>

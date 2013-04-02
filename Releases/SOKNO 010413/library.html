@@ -1,0 +1,336 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | Persona Library</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	
+	<script type='text/javascript' src='js/libs/jquery-1.8.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery-ui-1.9.1.custom.min.js'></script>
+	<script type='text/javascript' src='js/libs/modernizr-2.6.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.watermark.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.autosize-min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="#"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li><a href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</nav>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- USER -->
+<section class="user">
+	<hgroup>
+		<h3>Erica Smith</h3>
+	</hgroup>
+	<div class="block persona clearfix">
+		<div class="info">
+			<div class="thumb"><a href="#"><img src="img/persona/image-persona6-m.png" alt="" /></a></div>
+			<div class="level">
+				<span class="level1 stage0">1</span>
+				<span class="level2 stage0">2</span>
+				<span class="level3 stage3">3</span>
+				<p>Apprentice</p>
+			</div>
+			<div class="location">
+				<span class="icon-marker"></span>
+				<p>El Dorado Hills, CA</p>
+			</div>
+		</div>
+	</div>
+	<div class="button wide follow">
+		<a href="#"><span class="label-icon"><span class="check"></span>Following</span></a>
+	</div>
+</section>
+
+	<!-- CONNECTIONS -->
+<section class="connections">
+	<ul class="nav">
+		<li><a href="persona.html">PersonaGraf</a></li>
+		<li class='current'><a class='current' href="library.html">Library</a><span class="stat">398</span></li>
+		<li><a href="connections.html">Connections</a><span class="stat">128</span></li>
+	</ul>
+</section>
+
+	<!-- SPOTLIGHT -->
+<section class="spotlight">
+	<hgroup>
+		<h3>Spotlight</h3>
+	</hgroup>
+	
+	<!-- INFO -->
+	<div class="spotlight-info">
+		
+		<!-- STATS -->
+		<div class="info-section">
+			<div class="info-quad1">
+				<h5>Lifetime</h5>
+				<h4>1 Year Ago</h4>
+			</div>
+			<div class="info-quad2">
+				<h5>Curations</h5>
+				<h4>10,236</h4>
+			</div>
+		</div>
+
+		<div class="info-section">
+			<div class="info-quad3">
+				<h5>Followers</h5>
+				<h4>89</h4>
+			</div>
+			<div class="info-quad4">
+				<h5>Following</h5>
+				<h4>39</h4>
+			</div>
+		</div>
+		
+		<!-- SOURCE -->
+		<div class="info-section thread">
+			<h5>Recent Curation</h5>
+			<div class="tile content grid_3 alpha">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="#"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		</div>
+		
+	</div>
+	<!-- END INFO -->
+
+</section>
+<!-- END SPOTLIGHT -->
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<h3>Library</h3>
+	<ul id="nav-sort">
+		<li class="nav-label">Sort</li>
+		<li><a class="date" href="#">Date</a></li>
+		<li><a class="new" href="#">New</a></li>
+		<li><a class="alpha" href="#">Alpha</a></li>
+		<li><a class="relevance" href="#">Relevance</a></li>
+	</ul>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div id="content-library" class="clearfix">
+		
+		<div class="tile content grid_3 alpha">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="#"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		<div class="tile thread grid_3">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<p class="comment">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula id...</p>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="data">
+		<div class="recent">
+			<p>Recent Post</p>
+			<h4>3m ago</h4>
+		</div>
+		<div class="comments">
+			<p>Comments</p>
+			<h4>378</h4>
+		</div>
+	</div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>6w</li>
+			<li><span class="stat-persona"></span>26</li>
+		</ul>
+	</div>
+</div>
+		<div class="tile thread grid_3 omega">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<p class="comment">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula id...</p>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="data">
+		<div class="recent">
+			<p>Recent Post</p>
+			<h4>3m ago</h4>
+		</div>
+		<div class="comments">
+			<p>Comments</p>
+			<h4>378</h4>
+		</div>
+	</div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>6w</li>
+			<li><span class="stat-persona"></span>26</li>
+		</ul>
+	</div>
+</div>
+		<div class="tile content grid_3 alpha">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="#"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		<div class="tile content grid_3">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="#"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		<div class="tile thread grid_3 omega">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<p class="comment">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula id...</p>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="data">
+		<div class="recent">
+			<p>Recent Post</p>
+			<h4>3m ago</h4>
+		</div>
+		<div class="comments">
+			<p>Comments</p>
+			<h4>378</h4>
+		</div>
+	</div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>6w</li>
+			<li><span class="stat-persona"></span>26</li>
+		</ul>
+	</div>
+</div>
+
+	</div>
+
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+</body>
+</html>

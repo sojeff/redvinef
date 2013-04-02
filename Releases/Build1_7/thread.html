@@ -1,0 +1,559 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | Thread</title>
+	
+	<link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='css/layout.css'>
+	<link rel='stylesheet' href='css/styles.css'>
+	
+	
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+	<script src='js/libs/jquery.watermark.min.js'></script>
+	<script src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script src='js/libs/jquery.autosize-min.js'></script>
+	<script src='js/scripts.js'></script>
+	
+	
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="about.html"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li><a href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</div>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- SPOTLIGHT -->
+<section class="spotlight">
+	<hgroup>
+		<h3>Spotlight</h3>
+	</hgroup>
+	
+	<!-- INFO -->
+	<div class="spotlight-info">
+		
+		<!-- STATS -->
+		<div class="info-section">
+			<div class="info-quad1">
+				<h5>Recent Post</h5>
+				<h4>1min ago</h4>
+			</div>
+			<div class="info-quad2">
+				<h5>Comments</h5>
+				<h4>126</h4>
+			</div>
+		</div>
+
+		<div class="info-section">
+			<div class="info-quad3">
+				<h5>Likes</h5>
+				<h4>1,432</h4>
+			</div>
+			<div class="info-quad4">
+				<h5>Tags</h5>
+				<h4>21</h4>
+			</div>
+		</div>
+		
+		<!-- PERSONA -->
+		<div class="info-section persona">
+			<h5>Created by</h5>
+			<div class="mini-persona">
+				<div class="thumb">
+					<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+				</div>
+				<div class="info">
+					<h4><a href="#">Erica Smith</a></h4>
+					<p><span class="level1 stage1">1</span>Warrior</p>
+				</div>
+				<div class="button-follow square">
+					<a href="#">Follow</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- SOURCE -->
+		<div class="info-section source">
+			<h5>Referenced Content</h5>
+			<div class="tile content grid_3">
+	<h4 class="title"><a href="content.html">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="content.html"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		</div>
+		
+	</div>
+	<!-- END INFO -->
+
+</section>
+<!-- END SPOTLIGHT -->
+
+	<!-- RELATED -->
+<section class="related">
+	<hgroup>
+		<h3>Related</h3>
+		<ul id="sort-related">
+			<li><a class="content current" href="#">Content</a></li>
+			<li><a class="threads" href="#">Threads</a></li>
+		</ul>
+	</hgroup>
+
+	<div class="list content">
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img src="img/ui/placeholder-thumb.png" alt="" /></a>
+			</div>
+			<h4><a href="#">Donec ullamcorper nulla non metus auctor fringilla...</a></h4>
+		</div>
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img src="img/ui/placeholder-thumb.png" alt="" /></a>
+			</div>
+			<h4><a href="#">Etiam porta sem malesuada magna mollis euismod...</a></h4>
+		</div>
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img src="img/ui/placeholder-thumb.png" alt="" /></a>
+			</div>
+			<h4><a href="#">Nullam id dolor id nibh ultricies vehicula ut id elit...</a></h4>
+		</div>
+	</div>
+
+	<div class="list threads">
+		<div class="list-block">
+			<h4><a href="#">Donec ullamcorper nulla non metus auctor fringilla...</a></h4>
+		</div>
+		<div class="list-block">
+			<h4><a href="#">Etiam porta sem malesuada magna mollis euismod...</a></h4>
+		</div>
+		<div class="list-block">
+			<h4><a href="#">Nullam id dolor id nibh ultricies vehicula ut id elit...</a></h4>
+		</div>
+	</div>
+
+</section>
+
+	<!-- TAGS -->
+<section class="tags">
+	<hgroup>
+		<h3>Top Tags</h3>
+	</hgroup>
+	<ul class="nav tags">
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li class="last"><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+	</ul>
+</section>
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<ul id="nav-crumb">
+		<li class="back"><a href="knowcell.html">Back</a></li>
+		<li>
+			<a href="#">Global</a>
+			<ul class="menu">
+				<li><a class="current" href="#">Global</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="header">Private JumpPads</li>
+				<li><a href="#">Hartnell</a></li>
+			</ul>
+			<span class="icon-wedge"></span>
+		</li>
+		<li><span class="icon-arrow">&rsaquo;</span></li>
+		<li>
+			<a class="current" href="#">Religion & Philosophy</a>
+			<ul class="menu wide">
+				<ul class="col">
+					<li><a href="#">Animals</a></li>
+					<li><a href="#">Aeronautics</a></li>
+					<li><a href="#">Arts & Crafts</a></li>
+					<li><a href="#">Automotive</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Culture</a></li>
+					<li><a href="#">Design</a></li>
+					<li><a href="#">Education</a></li>
+					<li><a href="#">Energy</a></li>
+					<li><a href="#">Engineering</a></li>
+					<li><a href="#">Entertainment</a></li>
+					<li><a href="#">Fashion</a></li>
+					<li><a href="#">Fitness & Nutrition</a></li>
+					<li><a href="#">Food & Drink</a></li>
+				</ul>
+				<ul class="col">
+					<li><a href="#">Gaming</a></li>
+					<li><a href="#">Geography</a></li>
+					<li><a href="#">Government & Politics</a></li>
+					<li><a href="#">Health & Medicine</a></li>
+					<li><a href="#">History</a></li>
+					<li><a href="#">Internet & Social</a></li>
+					<li><a href="#">Language</a></li>
+					<li><a href="#">Law</a></li>
+					<li><a href="#">Literature</a></li>
+					<li><a href="#">Living</a></li>
+					<li><a href="#">Math</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">Nature</a></li>
+					<li><a href="#">News</a></li>
+				</ul>
+				<ul class="col">
+					<li><a href="#">Parenting</a></li>
+					<li><a href="#">Photography</a></li>
+					<li><a href="#">Products & Gear</a></li>
+					<li><a href="#">Programming</a></li>
+					<li><a class="current" href="#">Religion & Philosophy</a></li>
+					<li><a href="#">Science</a></li>
+					<li><a href="#">Space</a></li>
+					<li><a href="#">Sports</a></li>
+					<li><a href="#">Style & Beauty</a></li>
+					<li><a href="#">Transportation</a></li>
+					<li><a href="#">Travel</a></li>
+					<li><a href="#">Technology</a></li>
+					<li><a href="#">Weather</a></li>
+					<li><a href="#">World</a></li>
+				</ul>
+			</ul>
+			<span class="icon-wedge"></span>
+		</li>
+	</ul>
+	<ul id="nav-curate">
+		<li class="nav-label">Curate</li>
+		<li><a class="like" href="#">Like</a></li>
+		<li><a class="flag" href="#">Flag</a></li>
+		<li><a class="tag" href="#">Tag</a></li>
+		<li>
+			<a class="share" href="#">Share</a>
+			<ul class="menu">
+				<li><a class="connect" href="#">Connect</a></li>
+				<li><a href="mailto:name@email.com?subject=Check out this Knowledge at SO:KNO&trade;&body=">Email</a></li>
+			</ul>
+			<span class="icon-wedge"></span>
+		</li>
+	</ul>
+</div>
+
+<div id="form-tags" class="clearfix">
+	<div class="icon-wedgetags"></div>
+	<form method="" action="">
+		<p>Add Keywords as Tags.  Seperate each Keyword with a <strong>Comma</strong> or <strong>Space</strong>.</p>
+		<div><input class="tags" type="text" value="" /></div>
+		<div class="button input orange"><input type="submit" value="Add Tags" /></div>
+	</form>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div id="content-thread" class="clearfix">
+
+		<!-- THREAD BLOCK -->
+		<h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo
+		risus, porta ac consectetur ac, vestibulum at eros.</h3>
+		
+		<div id="form-thread">
+			<form method="" action="">
+				<div id="thread-input">
+					<textarea class="comment"></textarea>
+					<input class="link" name="link" type="text" value="" />
+					<input class="content" name="content" type="text" value="" />
+				</div>
+				<div id="thread-link">
+					<input class="button-link" type="button" />
+					<input class="button-content" type="button" />
+				</div>
+				<div class="button orange input"><input type="submit" value="Add Comment" /></div>
+			</form>
+		</div>
+	</div>
+
+	<div id="content" class="clearfix">
+		<!-- COMMENT BLOCK -->
+<div class="comment-block">
+	<div class="comment-persona"><img src="img/persona/image-persona6-m.png" alt="" /></div>
+	<div class="icon-wedgethread"></div>
+	<div class="comment-post">
+		<div class="post-header">
+			<div class="post-persona">
+				<h4><a href="#">{dynamic-name}</a></h4>
+				<p class="persona-class"><span class="level3 stage2">{#}</span>{dynamic-class}</p>
+			</div>
+			<ul class="nav-comment">
+				<li><a class="like" href="#">Like</a></li>
+				<li><a class="flag" href="#">Flag</a></li>
+				<li><a class="reply" href="#">Reply</a></li>
+				<li>
+					<a class="share" href="#">Share</a>
+					<ul class="menu">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Pinterest</a></li>
+						<li><a href="#">Email</a></li>
+					</ul>
+					<span class="icon-wedge"></span>
+				</li>
+			</ul>
+		</div>
+		<div class="post-content">
+			<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, #Tropical Fish adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="post-link">
+			<div class="link-source">
+				<span class="icon-link"></span>
+				<a href="#">http://so.kno.com/123456</a>
+			</div>
+			<div class="link-content">
+				<span class="icon-content"></span>
+				<span><a href="#">{dynamic-jumppad}</a> &rsaquo;</span>
+				<span><a href="#">{dynamic-knowcell}</a> &rsaquo;</span>
+				<span>{dynamic-name}</span>
+			</div>
+		</div>
+		<div class="stats">
+			<ul>
+				<li><span class="stat-date"></span>1min</li>
+				<li><span class="stat-like"></span>20</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="comment-block reply">
+	<div class="comment-persona"><img src="img/persona/image-persona6-m.png" alt="" /></div>
+	<div class="icon-wedgethread"></div>
+	<div class="comment-post">
+		<div class="post-header">
+			<div class="post-persona">
+				<h4><a href="#">{dynamic-name}</a></h4>
+				<p class="persona-class"><span class="level3 stage2">{#}</span>{dynamic-class}</p>
+			</div>
+		</div>
+		<div class="post-content">
+			<form method="" action="">
+				<div id="thread-input">
+					<textarea class="comment"></textarea>
+					<input class="link" name="link" type="text" value="" />
+					<input class="content" name="content" type="text" value="" />
+				</div>
+				<div id="thread-link">
+					<input class="button-link" type="button" />
+					<input class="button-content" type="button" />
+				</div>
+				<div class="button orange input"><input type="submit" value="Add Comment" /></div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="comment-block reply">
+	<div class="comment-persona"><img src="img/persona/image-persona6-m.png" alt="" /></div>
+	<div class="icon-wedgethread"></div>
+	<div class="comment-post">
+		<div class="post-header">
+			<div class="post-persona">
+				<h4><a href="#">{dynamic-name}</a></h4>
+				<p class="persona-class"><span class="level3 stage2">{#}</span>{dynamic-class}</p>
+			</div>
+			<ul class="nav-comment">
+				<li><a class="like" href="#">Like</a></li>
+				<li><a class="flag" href="#">Flag</a></li>
+				<li><a class="reply" href="#">Reply</a></li>
+				<li>
+					<a class="share" href="#">Share</a>
+					<ul class="menu">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Pinterest</a></li>
+						<li><a href="#">Email</a></li>
+					</ul>
+					<span class="icon-wedge"></span>
+				</li>
+			</ul>
+		</div>
+		<div class="post-content">
+			<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, #Tropical Fish adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="post-link">
+			<div class="link-source">
+				<span class="icon-link"></span>
+				<a href="#">http://so.kno.com/123456</a>
+			</div>
+			<div class="link-content">
+				<span class="icon-content"></span>
+				<span><a href="#">{dynamic-jumppad}</a> &rsaquo;</span>
+				<span><a href="#">{dynamic-knowcell}</a> &rsaquo;</span>
+				<span>{dynamic-name}</span>
+			</div>
+		</div>
+		<div class="stats">
+			<ul>
+				<li><span class="stat-date"></span>2d</li>
+				<li><span class="stat-like"></span>12</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="comment-block">
+	<div class="comment-persona"><img src="img/persona/image-persona6-m.png" alt="" /></div>
+	<div class="icon-wedgethread"></div>
+	<div class="comment-post">
+		<div class="post-header">
+			<div class="post-persona">
+				<h4><a href="#">{dynamic-name}</a></h4>
+				<p class="persona-class"><span class="level3 stage2">{#}</span>{dynamic-class}</p>
+			</div>
+			<ul class="nav-comment">
+				<li><a class="like" href="#">Like</a></li>
+				<li><a class="flag" href="#">Flag</a></li>
+				<li><a class="reply" href="#">Reply</a></li>
+				<li>
+					<a class="share" href="#">Share</a>
+					<ul class="menu">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Pinterest</a></li>
+						<li><a href="#">Email</a></li>
+					</ul>
+					<span class="icon-wedge"></span>
+				</li>
+			</ul>
+		</div>
+		<div class="post-content">
+			<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, #Tropical Fish adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="post-link">
+			<div class="link-source">
+				<span class="icon-link"></span>
+				<a href="#">http://so.kno.com/123456</a>
+			</div>
+			<div class="link-content">
+				<span class="icon-content"></span>
+				<span><a href="#">{dynamic-jumppad}</a> &rsaquo;</span>
+				<span><a href="#">{dynamic-knowcell}</a> &rsaquo;</span>
+				<span>{dynamic-name}</span>
+			</div>
+		</div>
+		<div class="stats">
+			<ul>
+				<li><span class="stat-date"></span>1w</li>
+				<li><span class="stat-like"></span>125</li>
+			</ul>
+		</div>
+	</div>
+</div>
+	</div>
+
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+<!-- CREATE MODAL -->
+<div id="modal-connect">
+	<h4>Connect this Content to Another Topic</h4>
+	<form method="" action="" class="clearfix">
+		
+		<div class="block-field">
+			<input class="topic" name="topic" type="text" value="" />
+		</div>
+		
+		<div class="block-field">
+			<div class="button gray simplemodal-close">
+				<a class="" href="">
+					<span class="label">Cancel</span>
+				</a>
+			</div>
+			<div class="button orange input">
+				<input type="submit" value="Connect" />
+			</div>
+		</div>
+		
+	</form>
+</div>
+
+</body>
+</html>

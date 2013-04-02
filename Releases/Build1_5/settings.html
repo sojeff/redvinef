@@ -1,0 +1,365 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | PersonaGraf</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	
+	<script type='text/javascript' src='js/libs/jquery-1.8.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery-ui-1.9.1.custom.min.js'></script>
+	<script type='text/javascript' src='js/libs/modernizr-2.6.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.watermark.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.autosize-min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.easy-pie-chart.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="about.html"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li class='current'><a class='current' href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</nav>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- USER -->
+<section class="user">
+	<hgroup>
+		<h3>Greg Johnson</h3>
+	</hgroup>
+	<div class="block persona clearfix">
+		<div class="info">
+			<div class="thumb"><a href="#"><img src="img/persona/image-persona6-m.png" alt="" /></a></div>
+			<div class="level">
+				<span class="level1 stage0">1</span>
+				<span class="level2 stage0">2</span>
+				<span class="level3 stage3">3</span>
+				<p>Apprentice</p>
+			</div>
+			<div class="location">
+				<span class="icon-marker"></span>
+				<p>El Dorado Hills, CA</p>
+			</div>
+		</div>
+	</div>
+	<div class="button wide follow">
+		<a href="#"><span class="label-icon"><span class="check"></span>Following</span></a>
+	</div>
+</section>
+
+	<!-- CONNECTIONS -->
+<section class="connections">
+	<ul class="nav">
+		<li><a href="persona.html">PersonaGraf</a></li>
+		<li><a href="library.html">Library</a><span class="stat">398</span></li>
+		<li><a href="connections.html">Connections</a><span class="stat">128</span></li>
+	</ul>
+</section>
+
+	<!-- SPOTLIGHT -->
+<section class="spotlight">
+	<hgroup>
+		<h3>Spotlight</h3>
+	</hgroup>
+	
+	<!-- INFO -->
+	<div class="spotlight-info">
+		
+		<!-- STATS -->
+		<div class="info-section">
+			<div class="info-quad1">
+				<h5>Lifetime</h5>
+				<h4>2 Years Ago</h4>
+			</div>
+			<div class="info-quad2">
+				<h5>Curations</h5>
+				<h4>8,423</h4>
+			</div>
+		</div>
+
+		<div class="info-section">
+			<div class="info-quad3">
+				<h5>Followers</h5>
+				<h4>254</h4>
+			</div>
+			<div class="info-quad4">
+				<h5>Following</h5>
+				<h4>185</h4>
+			</div>
+		</div>
+		
+		<!-- SOURCE -->
+		<div class="info-section thread">
+			<h5>Recent Curation</h5>
+			<div class="tile content grid_3 alpha">
+	<h4 class="title"><a href="content.html">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<div class="thumb"><a href="content.html"><img src="img/thumbs/image-know.png" alt="" /></a></div>
+	<p class="excerpt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et</p>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>1d</li>
+			<li><span class="stat-like"></span>237</li>
+		</ul>
+	</div>
+</div>
+		</div>
+		
+	</div>
+	<!-- END INFO -->
+
+</section>
+<!-- END SPOTLIGHT -->
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<h3>Settings</h3>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div id="content-article" class="clearfix">
+		<h3 class="title">Admin Content</h3>
+		<form id="form-admin" class="clearfix" method="post" action="">
+
+	<div class="section">
+		<!-- IMAGE UPLOAD -->
+		<h3>File</h3>
+		<p class="note">Upload a content file to a Knowledge Cell. <strong>Accepted files are PDF and DOC</strong></p>
+		<div>
+			<label class="main" for="">Content File</label>
+			<input name="persona" class="persona" type="file" />
+		</div>
+	</div>
+	
+	<div class="section">
+		<h3>Knowledge Cell</h3>
+		<p class="note">Select the Knowledge Cell where this content file will be posted.</p>
+		<div>
+			<select id="private" name="private">
+				<option value="" selected="selected">Select a Private Knowledge Cell</option>
+				<option value="priv1">KnowledgeCell 1</option>
+				<option value="priv2">KnowledgeCell 2</option>
+				<option value="priv3">KnowledgeCell 3</option>
+				<option value="priv4">KnowledgeCell 4</option>
+				<option value="priv5">KnowledgeCell 5</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="input button">
+		<input class="" type="submit" name="submit" value="Submit" />
+	</div>
+
+</form>
+
+		<h3 class="title">Persona Information</h3>
+		<form id="form-settings" method="post" action="">
+
+	<div class="section">
+		<!-- IMAGE UPLOAD -->
+		<h3>Image</h3>
+		<p class="note">Upload an image to use for your Persona. <strong>Accepted files are PNG, GIF and JPG</strong></p>
+		<div>
+			<label class="main" for="">Persona Image</label>
+			<input name="persona" class="persona" type="file" />
+		</div>
+	</div>
+	
+	<div class="section">
+		<h3>General</h3>
+		<p class="note">Update or add your general persona information.</p>
+		
+		<!-- NAME -->
+		<div>
+			<label class="main" for="">Name</label>
+			<input name="first_name" class="firstname" type="text" maxlength="255" value="" />
+			<input name="last_name" class="lastname" type="text" maxlength="255" value="" />
+		</div>
+		
+		<!-- BIRTHDAY -->
+		<div>
+			<label class="main" for="">Birthday</label>
+			<span>
+				<input name="month" class="month" size="2" maxlength="2" value="" type="text">/
+			</span>
+			<span>
+				<input name="day" class="day" size="2" maxlength="2" value="" type="text">/
+			</span>
+			<span>
+				<input name="year" class="year" size="4" maxlength="4" value="" type="text">
+			</span>
+		</div>
+		
+		<!-- GENDER -->
+		<div>
+			<label class="main" for="">Gender</label>
+			<span class="gender">
+				<input name="gender" class="male" type="radio" value="male" />
+				<label for="male">Male</label>
+				<input name="gender" class="female" type="radio" value="female" />
+				<label for="female">Female</label>
+			</span>
+		</div>
+		
+		<div>
+			<label class="main" for="">Location</label>
+			<input name="city" class="city" value="" type="text">
+			<input name="zip" class="zip" maxlength="7" value="" type="text">
+			<select class="state" name="state">
+				<option value="" selected="selected"></option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+			</select>
+			<label for="">State</label>
+		</div>
+	</div>
+
+	<div class="section last">
+		<h3>Account</h3>
+		<p class="note">Update your Email (Username) and Password to your Account.</p>
+		<div>
+			<input name="email" class="email" type="text" maxlength="255" value="" />
+		</div>
+		<div>
+			<input name="password" class="password" type="password" maxlength="60" value="" />
+		</div>
+		<div>
+			<input name="passwordconfirm" class="passwordconfirm" type="password" maxlength="60" value="" />
+		</div>
+	</div>
+
+	<div class="input button">
+		<input class="" type="submit" name="save" value="Save" />
+	</div>
+
+</form>
+		
+	</div>
+
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+</body>
+</html>

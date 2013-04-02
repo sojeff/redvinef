@@ -1,0 +1,459 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>SO:KNO&trade; | Content</title>
+	
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	
+	<script src="js/libs/jquery-1.8.2.min.js" type="text/javascript"></script>
+	<script src="js/libs/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+	<script src="js/libs/modernizr-2.6.2.min.js" type="text/javascript"></script>
+	<script src="js/libs/jquery.watermark.min.js" type="text/javascript"></script>
+	<script src="js/libs/jquery.simplemodal.1.4.3.min.js" type="text/javascript"></script>
+	<script src="js/libs/jquery.autosize-min.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body>
+
+<div class="clearfix" id="header-wrap">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div class="grid_12" id="header-meta">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="#"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div class="grid_12" id="header-nav">
+			<ul id="nav-main">
+				<li><a href="#" class="current "><span class="button-discover"></span>Discover</a></li>
+				<li><a href="#"><span class="button-persona"></span>Persona</a></li>
+				<li><a href="#"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input value="" class="search" type="text" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		
+		
+	</div></header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div class="clearfix" id="page-wrap">
+
+	<!-- PAGE -->
+	<div class="container_12" id="page">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- SPOTLIGHT -->
+<section class="spotlight">
+	<hgroup>
+		<h3>Spotlight</h3>
+	</hgroup>
+	
+	<!-- INFO -->
+	<div class="spotlight-info">
+		
+		<!-- STATS -->
+		<div class="info-section">
+			<div class="info-quad1">
+				<h5>Discover Date</h5>
+				<h4>1m ago</h4>
+			</div>
+			<div class="info-quad2">
+				<h5>Comments</h5>
+				<h4>126</h4>
+			</div>
+		</div>
+
+		<div class="info-section">
+			<div class="info-quad3">
+				<h5>Likes</h5>
+				<h4>1,432</h4>
+			</div>
+			<div class="info-quad4">
+				<h5>Tags</h5>
+				<h4>21</h4>
+			</div>
+		</div>
+		
+		<!-- PERSONA -->
+		<div class="info-section persona">
+			<h5>Discovered by</h5>
+			<div class="mini-persona">
+				<div class="thumb">
+					<a href="#"><img alt="" src="./img/persona/image-persona1-s.png" /></a>
+				</div>
+				<div class="info">
+					<h4><a href="#">Erica Smith</a></h4>
+					<p><span class="level1 stage1">1</span>Warrior</p>
+				</div>
+				<div class="button-follow square">
+					<a href="#">Follow</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- SOURCE -->
+		<div class="info-section source">
+			<h5>Original Source</h5>
+			<h4><span class="icon-link"></span><a href="#">CNET Tech Blog</a></h4>
+		</div>
+
+		<!-- SOURCE -->
+		<div class="info-section thread">
+			<h5>Discussion Thread</h5>
+			<div class="tile thread grid_3 omega">
+	<h4 class="title"><a href="#">Title of threads can be multiple lines in length across 2 lines</a></h4>
+	<p class="comment">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula id...</p>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img alt="" src="./img/persona/image-persona1-s.png" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="data">
+		<div class="recent">
+			<p>Recent Post</p>
+			<h4>3m ago</h4>
+		</div>
+		<div class="comments">
+			<p>Comments</p>
+			<h4>378</h4>
+		</div>
+	</div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-date"></span>6w</li>
+			<li><span class="stat-persona"></span>26</li>
+		</ul>
+	</div>
+</div>
+		</div>
+		
+	</div>
+	<!-- END INFO -->
+	
+	<div class="button wide mtop">
+		<a href="#" class="thread"><span class="label-icon"><span class="add"></span>Create Thread</span></a>
+	</div>
+
+</section>
+<!-- END SPOTLIGHT -->
+
+	<!-- RELATED -->
+<section class="related">
+	<hgroup>
+		<h3>Related</h3>
+		<ul id="sort-related">
+			<li><a href="#" class="content current">Content</a></li>
+			<li><a href="#" class="threads">Threads</a></li>
+		</ul>
+	</hgroup>
+
+	<div class="list content">
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img alt="" src="img/ui/placeholder-thumb.png" /></a>
+			</div>
+			<h4><a href="#">Donec ullamcorper nulla non metus auctor fringilla...</a></h4>
+		</div>
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img alt="" src="img/ui/placeholder-thumb.png" /></a>
+			</div>
+			<h4><a href="#">Etiam porta sem malesuada magna mollis euismod...</a></h4>
+		</div>
+		<div class="list-block">
+			<div class="thumb">
+				<a href="#"><img alt="" src="img/ui/placeholder-thumb.png" /></a>
+			</div>
+			<h4><a href="#">Nullam id dolor id nibh ultricies vehicula ut id elit...</a></h4>
+		</div>
+	</div>
+
+	<div class="list threads">
+		<div class="list-block">
+			<h4><a href="#">Donec ullamcorper nulla non metus auctor fringilla...</a></h4>
+		</div>
+		<div class="list-block">
+			<h4><a href="#">Etiam porta sem malesuada magna mollis euismod...</a></h4>
+		</div>
+		<div class="list-block">
+			<h4><a href="#">Nullam id dolor id nibh ultricies vehicula ut id elit...</a></h4>
+		</div>
+	</div>
+
+</section>
+
+	<!-- TAGS -->
+<section class="tags">
+	<hgroup>
+		<h3>Top Tags</h3>
+	</hgroup>
+	<ul class="nav tags">
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li class="last"><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+	</ul>
+</section>
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div class="grid_9" id="content-wrap">
+
+	<!-- CONTENT HEADER -->
+<div class="clearfix" id="content-header">
+	<ul id="nav-crumb">
+		<li class="back"><a href="#">Back</a></li>
+		<li>
+			<a href="#">Global</a>
+			<ul class="menu">
+				<li><a href="#" class="current">Global</a></li>
+				<li><a href="#">Personal</a></li>
+				<li class="header">Private JumpPads</li>
+				<li><a href="#">Hartnell</a></li>
+			</ul>
+			<span class="icon-wedge"></span>
+		</li>
+		<li><span class="icon-arrow">&rsaquo;</span></li>
+		<li>
+			<a href="#" class="current">Religion & Philosophy</a>
+			<ul class="menu col1">
+				<li><a href="#">Animals</a></li>
+				<li><a href="#">Aeronautics</a></li>
+				<li><a href="#">Arts & Crafts</a></li>
+				<li><a href="#">Automotive</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Culture</a></li>
+				<li><a href="#">Design</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">Energy</a></li>
+				<li><a href="#">Engineering</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Fashion</a></li>
+				<li><a href="#">Fitness & Nutrition</a></li>
+				<li><a href="#">Food & Drink</a></li>
+			</ul>
+			<ul class="menu col2">
+				<li><a href="#">Gaming</a></li>
+				<li><a href="#">Geography</a></li>
+				<li><a href="#">Government & Politics</a></li>
+				<li><a href="#">Health & Medicine</a></li>
+				<li><a href="#">History</a></li>
+				<li><a href="#">Internet & Social</a></li>
+				<li><a href="#">Language</a></li>
+				<li><a href="#">Law</a></li>
+				<li><a href="#">Literature</a></li>
+				<li><a href="#">Living</a></li>
+				<li><a href="#">Math</a></li>
+				<li><a href="#">Music</a></li>
+				<li><a href="#">Nature</a></li>
+				<li><a href="#">News</a></li>
+			</ul>
+			<ul class="menu col3">
+				<li><a href="#">Parenting</a></li>
+				<li><a href="#">Photography</a></li>
+				<li><a href="#">Products & Gear</a></li>
+				<li><a href="#">Programming</a></li>
+				<li><a href="#" class="current">Religion & Philosophy</a></li>
+				<li><a href="#">Science</a></li>
+				<li><a href="#">Space</a></li>
+				<li><a href="#">Sports</a></li>
+				<li><a href="#">Style & Beauty</a></li>
+				<li><a href="#">Transportation</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Technology</a></li>
+				<li><a href="#">Weather</a></li>
+				<li><a href="#">World</a></li>
+			</ul>
+			<span class="icon-wedge"></span>
+		</li>
+	</ul>
+	<ul id="nav-curate">
+		<li class="nav-label">Curate</li>
+		<li><a href="#" class="like">Like</a></li>
+		<li><a href="#" class="flag">Flag</a></li>
+		<li><a href="#" class="tag">Tag</a></li>
+		<li><a href="#" class="share">Share</a></li>
+	</ul>
+</div>
+	
+	<!-- CONTENT BLOCK -->
+	<div class="clearfix" id="content-article">
+		<h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo
+				risus, porta ac consectetur ac, vestibulum at eros.</h3>
+
+		<div section="txt" contentscore="7439">
+	<div contentscore="112">
+		<img alt="" src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/10/16/35427825-4_610x435.jpg" width="610" height="435" />
+		<p>LG's Optimus G is one of the first smartphones to rock Qualcomm's quad-core processor, but it won't be the last.</p>
+		<span>(Credit: Josh Miller/CNET)</span>
+	</div>
+	<p>Remember when a quad-core processor was the ultimate indicator of a super-smartphone? Well its 15 minutes are almost up.</p>
+	<p>Just as the current run of super-smartphones are destined for the bargain bin in a few months, so too will the novelty and obsession with the number of cores powering a phone begin to fade. Sure, smartphones with the latest quad-core chips still rule now, but companies are already preparing to change the conversation.</p>
+	<p>In its place, expect chip companies, handset manufacturers, and wireless carriers to shift their marketing away from an emphasis cores and more toward tangible benefits such as a smoother experience, bigger displays with higher-resolution graphics, and better battery life.</p>
+	<p>"That's the end game for a lot of these semiconductor companies: connect great experiences and long battery life with their chip," said Francis Sideco, an analyst at IHS.</p>
+	<p>The mobile industry has been making steady progress on the brains found in smartphones. It wasn't that long ago that a 1-gigahertz processor was the high benchmark for a mobile device. Then came the advent of dual-core processors, and this year brought quad-core chips to the mainstream.</p>
+	<p></p>
+	<div section="related">
+		<h3>Related stories</h3>
+		<ul>
+			<li>
+				<a href="http://news.cnet.com/8301-1035_3-57557228-94/qualcomm-adds-two-quad-core-chipsets-to-snapdragon-s4-line/">Qualcomm adds two quad-core chipsets to Snapdragon S4 line</a>
+			</li>
+			<li>
+				<a href="http://news.cnet.com/8301-1001_3-57556980-92/qualcomm-invests-up-to-%24120-million-in-sharp-takes-minority-stake/">Qualcomm invests up to  million in Sharp, takes minority stake</a>
+			</li>
+			<li>
+				<a href="http://news.cnet.com/8301-1001_3-57556194-92/dell-intel-eye-investment-in-sharp-report-says/">Dell, Intel eye investment in Sharp, report says</a>
+			</li>
+			<li>
+				<a href="http://news.cnet.com/8301-1035_3-57550695-94/wireless-charging-blazes-path-toward-mainstream/">Wireless charging blazes path toward mainstream</a>
+			</li>
+			<li>
+				<a href="http://news.cnet.com/8301-1001_3-57549459-92/qualcomm-intel-consider-%24375m-investment-in-sharp/">Qualcomm, Intel consider M investment in Sharp</a>
+			</li>
+		</ul>
+	</div>
+	<p>The progression made for an easy marketing message to consumers and specification geeks: if two cores are better than one, four has got to be even better. Of course, the truth isn't really that simple, but that doesn't stop everyone in the mobile devices industry, right down to the sales staff, from repeating it as gospel.</p>
+	<p>The obsession with mobile processors has been a boon to the chip makers, giving added visibility to companies such as Qualcomm and Nvidia. These aren't exactly household names, but they are brands that mean something to gadget enthusiasts, and are often associated with quality. It's no wonder companies such as Qualcomm have spent millions of dollars marketing the Snapdragon processor brand, similar to Intel's own "Intel Inside" campaign for PCs.</p>
+	<p>But the chip industry is getting to the point where more cores will result in diminishing returns, with most companies agreeing that four will be the limit for a while. That's because few applications and tasks on the phone (or computer) can take advantage of multiple cores and actually get a benefit.</p>
+	<p>"Quad-core CPUs will have become the standard for mobile devices," said Matt Wuebbling, director of Nvidia's Tegra marketing. "While some may try to move beyond quad-core, we don't believe there will be a perceptible user benefit."</p>
+	<p>So don't hold your breath for a five or six-core smartphone.</p>
+	<p>Without the easy sales pitch of more cores, these companies have their work cut out for them when it comes to talking about their chips.</p>
+	<p>"It's what's keeping their chief marketing officers up at night," Sideco said.</p>
+	<p>
+		<b>Battery life a focus</b>
+		<br clear="all" />Traditionally, more cores has meant a larger drain on battery life. That has necessitated the creation of larger smartphones with bigger batteries.</p>
+	<p>In moving beyond cores, the extension of a battery life will be a priority for these companies. Nvidia already talks about its fifth "stealth" core that helps to save battery life, but that's just the beginning.</p>
+	<p>Future Snapdragon chips will have not only the central CPU cores, but also specialized "blocks" that reduce the strain on the main cores and handle specific tasks such as managing the camera lens or controlling the sensors, according to Raj Talluri, vice president of product management for Qualcomm's CDMA technologies unit.</p>
+	<p>"We want to make sure that you don't have to charge the phone every day, even if you have that flagship smartphone with the big camera, Wi-Fi, big display, and navigation," he said.</p>
+	<p></p>
+	<div contentscore="111">
+		<img alt="" src="http://asset2.cbsistatic.com/cnwk.1d/i/tim/2012/10/18/Motorola_Droid_Razr_Maxx_HD_35436500_10_610x436.jpg" width="610" height="436" />
+		<p>The Droid Razr Maxx HD packs a bigger battery, but as tasks get more complicated, how much bigger can they get?</p>
+		<span>(Credit: Sarah Tew/CNET)</span>
+	</div>
+	<p>The company hopes to differentiate itself from the competition by improving the power efficiency of its processor relative to ARM Holding's next version of its ARM processor, which is the model upon which most mobile processors are based on.</p>
+	<p>The handset manufacturers have attempted to mitigate the power issue with larger batteries, with Google's Motorola Mobility notably pushing its heftier Droid
+		<a href="http://reviews.cnet.com/smartphones/motorola-droid-razr-maxx/4505-6452_7-35436500.html">Razr Maxx HD</a>. But the chip makers have a role to play here, Talluri said.</p>
+	<p>"You can't keep packing in bigger batteries because people are used to thin phones," he said.</p>
+	<p>Qualcomm was late to the quad-core game, with the LG
+		<a href="http://reviews.cnet.com/smartphones/lg-optimus-g-sprint/4505-6452_7-35427825.html">Optimus G</a>and HTC
+		<a href="http://reviews.cnet.com/smartphones/htc-droid-dna-verizon/4505-6452_7-35536642.html">Droid DNA</a>being the first phones to use its latest chips. But its dual-core processors often ran on par with the competition, already deflating some of the perception of the superiority of more cores.</p>
+	<p>
+		<b>Better, bolder graphics</b>
+		<br clear="all" />Much like the PC industry got off its push to sell quad-core computers to focus on other features like graphics, the mobile industry should start to hear more noise about improved displays, higher resolutions, and console game-like graphics.</p>
+	<p>Nvidia, unsurprisingly, has been leading the charge when it comes to the graphics rhetoric. Legions of PC gamers already know about Nvidia, and the company hopes to develop the same kind of reputation on the mobile side.</p>
+	<p>"In 2013 you'll see the gap between console and mobile games almost disappear," Wuebbling said.</p>
+	<p></p>
+	<div contentscore="103">
+		<img alt="" src="http://asset0.cbsistatic.com/cnwk.1d/i/tim/2012/11/14/HTC_droidDNA_handson_610x426.jpg" width="610" height="426" />
+		<p>The Droid DNA offers a higher resolution display than the iPhone, but it requires a powerful processor.</p>
+		<span>(Credit: Sarah Tew/CNET)</span>
+	</div>
+	<p>The industry is already starting to move towards
+		<a href="http://news.cnet.com/8301-1035_3-57542284-94/apple-google-and-amazon-wage-war-of-pixels/">better, higher resolution displays</a>. One of the new buzzwords is PPI, or pixels per inch. Apple started the trend by focusing on the high PPI found in the iPhone's "Retina Display," and other manufacturers have started to stress the amount of pixels packed into their display. The
+		<a section="luke_topic" href="http://reviews.cnet.com/smartphones/htc-droid-dna-verizon/4505-6452_7-35536642.html">Droid DNA</a>has 440 PPI, compared with the Retina Display's 326 PPI.</p>
+	<p>More pixels means the need for a stronger processor to power those visuals, which is where Qualcomm, Nvidia, and others including Texas Instruments and even Intel, come in.</p>
+	<p>Beyond graphics, Wuebbling said future devices will include better camera capture and editing capabilities. It won't just be photos; shooting and editing video will be much easier and faster than before.</p>
+	<p>
+		<b>Emotional connection</b>
+		<br clear="all" />The odds are high that the chip companies will succeed in changing the conversation. Tech trends change rapidly, and today's dominant player can be tomorrow's also-ran. Qualcomm, for instance, is the leader in the industry by far with its Snapdragon line of processors, but challengers such as Nvidia have managed to win a place in several high-profile mobile devices.</p>
+	<p>Intel, which is completely dominant in the PC chip business, can't be dismissed as an eventual competitor in the mobile market. Its Atom processor is already in a variant of the Motorola Razr M, but it has yet to make inroads in mobile devices found in the U.S. market.</p>
+	<p>But Intel is the company that the others likely look to as the model. Its Intel Inside campaign drilled in the message that its chips meant quality and high performance, and it has soundly dominated PC rival AMD for years.</p>
+	<p>That's why companies such as Qualcomm are racing to develop that reputation in the mobile world. The company last year struck a deal to
+		<a href="http://online.wsj.com/article/SB10001424052970203413304577088661895809428.html">temporarily rename the Chargers' football stadium in San Diego to Snapdragon Stadium</a>from Qualcomm Stadium. Next month, Qualcomm CEO Paul Jacobs will
+		<a href="http://news.cnet.com/8301-1035_3-57533325-94/qualcomm-nabs-microsofts-ces-keynote-slot/">take over Microsoft's keynote spot</a>at the Consumer Electronics Show in Las Vegas.</p>
+	<p>Nvidia, meanwhile, will loudly tout where its chips go into, and talk more about the capabilities rather than horsepower, all in an effort to get consumers to remember its brand.</p>
+	<p>"It's not necessarily a speeds and feeds discussion anymore, but more about an emotional attachment to the brand," Sideco said.</p>
+</div>
+	</div>
+
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+<!-- CREATE MODAL -->
+<div id="modal-create">
+	<h4>Create a New Thread</h4>
+	<form class="clearfix" method="" action="">
+		
+		<div class="block-field">
+			<input value="" name="title" class="title" type="text" />
+		</div>
+		
+		<div class="block-field">
+			<div class="button gray simplemodal-close">
+				<a href="" class="">
+					<span class="label">Cancel</span>
+				</a>
+			</div>
+			<div class="button orange input">
+				<input value="Create" type="submit" />
+			</div>
+		</div>
+		
+	</form>
+</div>
+
+</body>
+</html>

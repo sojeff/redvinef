@@ -1,0 +1,299 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | JumpPads</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	
+	<script type='text/javascript' src='js/libs/jquery-1.8.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery-ui-1.9.1.custom.min.js'></script>
+	<script type='text/javascript' src='js/libs/modernizr-2.6.2.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.watermark.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.autosize-min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body>
+
+<div id="header-wrap" class="clearfix">
+
+	<!-- HEADER -->
+	<header class="container_12">
+		
+		<!-- HEADER META -->
+		<div id="header-meta" class="grid_12">
+			<h1>SO:KNO&trade;</h1>
+			<ul id="nav-meta">
+				<li><a href="#"><span class="button-info"></span>About</a></li>
+				<li class="last"><a href="#"><span class="button-logout"></span>Logout</a></li>
+			</ul>
+			<p>Welcome Back, Kevin Mooney Jr</p>
+		</div>
+		
+		<!-- HEADER NAV -->
+		<div id="header-nav" class="grid_12">
+			<ul id="nav-main">
+				<li><a href="jumppad.html"><span class="button-discover"></span>Discover</a></li>
+				<li><a href="persona.html"><span class="button-persona"></span>Persona</a></li>
+				<li class='current'><a class='current' href="settings.html"><span class="button-settings"></span>Settings</a></li>
+			</ul>
+			
+			<div id="form-search">
+				<form method="" action="">
+					<input class="search" type="text" value="" />
+					<input class="button search" type="submit" />
+				</form>
+			</div>
+		</nav>
+		
+	</header>
+	<!-- END HEADER -->
+	
+</div>
+	
+<div id="page-wrap" class="clearfix">
+
+	<!-- PAGE -->
+	<div id="page" class="container_12">
+	
+		<!-- SIDEBAR -->
+<aside class="grid_3">
+
+	<!-- JUMPPADS -->
+<section class="jumppads">
+	<hgroup>
+		<h3>Knowledge</h3>
+	</hgroup>
+	<ul class="nav">
+		<li><a class="current" href="#">Global</a><span class="stat">32K</span></li>
+		<li><a href="#">Personal</a><span class="stat">1,320</span></li>
+		<li class="header">Private</li>
+		<li><a href="#">Hartnell</a><span class="stat">465</span></li>
+	</ul>
+	<!--
+	<div class="button wide mtop">
+		<a class="thread" href="#"><span class="label-icon"><span class="add"></span>Create Thread</span></a>
+	</div>
+	-->
+</section>
+
+	<!-- ELITE -->
+<section class="personas">
+	<hgroup>
+		<h3>Elite Minds</h3>
+		<span><a class="followall" href="#">Follow All</a></span>
+	</hgroup>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+	<div class="mini-persona">
+		<div class="thumb">
+			<a href="#"><img src="./img/persona/image-persona1-s.png" alt="" /></a>
+		</div>
+		<div class="info">
+			<h4><a href="#">Erica Smith</a></h4>
+			<p><span class="level1 stage1">1</span>Warrior</p>
+		</div>
+		<div class="button-follow square">
+			<a href="#">Follow</a>
+		</div>
+	</div>
+</section>
+
+	<!-- TOPICS -->
+<section class="topics">
+	<hgroup>
+		<h3>Trending</h3>
+		<ul id="sort-topics">
+			<li><a class="content current" href="#">Content</a></li>
+			<li><a class="threads" href="#">Threads</a></li>
+		</ul>
+	</hgroup>
+	<ul class="list content">
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li class="last"><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+	</ul>
+	
+	<ul class="list threads">
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+		<li class="last"><a href="#">{dynamic-topic}</a><span class="stat">{##}</span></li>
+	</ul>
+</section>
+
+</aside>
+<!-- END SIDEBAR -->
+		<!-- CONTENT -->
+<div id="content-wrap" class="grid_9">
+
+	<!-- CONTENT HEADER -->
+<div id="content-header" class="clearfix">
+	<h3>Global</h3>
+	<ul id="nav-sort">
+		<li class="nav-label">Sort</li>
+		<li><a class="date" href="#">Date</a></li>
+		<li><a class="new" href="#">New</a></li>
+		<li><a class="alpha" href="#">Alpha</a></li>
+		<li><a class="relevance" href="#">Relevance</a></li>
+	</ul>
+</div>
+	
+	<!-- CONTENT TILES -->
+	<div id="content" class="clearfix">
+	
+		<div class="tile cell grid_3 alpha">
+	<h4><a href="knowcell.html">Knowledge Cell Title</a></h4>
+	<div class="thumb"><a href="knowcell.html"><img src="img/thumbs/image-topic.png" alt="" /></a></div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-thread"></span>6</li>
+			<li><span class="stat-content"></span>132</li>
+			<li><span class="stat-persona"></span>27</li>
+		</ul>
+	</div>
+</div>
+
+<div class="tile cell grid_3">
+	<h4><a href="knowcell.html">Knowledge Cell Title</a></h4>
+	<div class="thumb"><a href="knowcell.html"><img src="img/ui/placeholder-thumb.png" alt="" /></a></div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-thread"></span>24</li>
+			<li><span class="stat-content"></span>251</li>
+			<li><span class="stat-persona"></span>33</li>
+		</ul>
+	</div>
+</div>
+
+<div class="tile cell grid_3 omega">
+	<h4><a href="knowcell.html">Knowledge Cell Title</a></h4>
+	<div class="thumb"><a href="knowcell.html"><img src="img/thumbs/image-topic.png" alt="" /></a></div>
+	<div class="stats">
+		<ul>
+			<li><span class="stat-thread"></span>9</li>
+			<li><span class="stat-content"></span>86</li>
+			<li><span class="stat-persona"></span>14</li>
+		</ul>
+	</div>
+</div>
+
+	</div>
+	
+</div>
+<!-- END CONTENT -->
+	
+	</div>
+	<!-- END PAGE -->
+
+</div>
+
+<!-- CREATE MODAL -->
+<div id="modal-create">
+	<h4>Create a New JumpPads</h4>
+	<div class="form-modal">
+		<form method="" action="">
+			
+			<div class="block-field">
+				<input class="field-title" type="text" value="" />
+			</div>
+			
+			<div class="block-field">
+				<input type="radio" id="personal" name="jumppad" value="personal" />
+				<label for="personal">Personal</label>
+					
+				<input type="radio" id="private" name="jumppad" value="private" />
+				<label for="private">Private</label>
+			</div>
+			
+			<div class="block-field">
+				<div class="button gray simplemodal-close">
+					<a class="" href="">
+						<span class="label">Cancel</span>
+					</a>
+				</div>
+				<div class="button orange input">
+					<input type="submit" value="Create" />
+				</div>
+			</div>
+			
+		</form>
+	</div>
+</div>
+
+</body>
+</html>

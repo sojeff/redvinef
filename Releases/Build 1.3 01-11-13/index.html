@@ -1,0 +1,126 @@
+<html>
+		
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>SO:KNO&trade; | Knowledge Cell</title>
+	
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	
+	
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.watermark.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.simplemodal.1.4.3.min.js'></script>
+	<script type='text/javascript' src='js/libs/jquery.autosize-min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	
+	<script>
+  setInterval(function(){
+    try {
+      if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+      ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+      ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+      ws.onmessage = function(){
+        var links = document.getElementsByTagName('link'); 
+          for (var i = 0; i < links.length;i++) { 
+          var link = links[i]; 
+          if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+            link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
+          }
+        }
+      }
+    }catch(e){}
+  }, 500)
+</script>
+</head>
+	
+<body class="landing">
+
+<!-- META -->
+<div id="landing-wrap">
+
+	<div id="landing">
+		
+		<!-- GREETING -->
+		<div id="mission" class="clearfix">
+			<h1>SO:KNO&trade;</h1>
+			<h2>A World of Knowledge.<br />Infinite Possibilities.</h2>
+			<div class="button">
+				<a class="signup" href="#"><span class="label">Signup Now</span></a>
+			</div>
+		</div>
+		<!-- END GREETING -->
+		
+		<!-- LOGIN -->
+		<div id="window">
+			<div id="form" class="clearfix">
+				<div id="left">
+					<form id="login" method="" action="">
+						<div><input class="email" name="email" type="text" value="" /></div>
+						<div><input class="password" name="password" type="password" value="" /></div>
+						<p><a class="forgot" href="#">Forgot Your Password?</a></p>
+						<div class="button input"><input type="submit" value="Login" /></div>
+					</form>
+					
+					<form id="signup" method="" action="">
+						<div><input class="firstname" name="first_name" type="text" value="" /></div>
+						<div><input class="lastname" name="last_name" type="text" value="" /></div>
+						<div><input class="email" name="email" type="text" value="" /></div>
+						<div><input class="emailconfirm" name="email_confirm" type="text" value="" /></div>
+						<div><input class="password" name="password" type="password" value="" /></div>
+						<div class="note">
+							<input id="female" name="gender" type="radio" value="female" />
+							<label for="female">Female</label>
+							<input id="male" name="gender" type="radio" value="male" />
+							<label for="male">Male</label>
+						</div>
+						<p class="note">By creating an account, I accept SO:KNO's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a>.</p>
+						<p><a class="login" href="#">Already have an Account?</a></p>
+						<div class="button input"><input type="submit" value="Signup" /></div>
+					</form>
+
+					<form id="forgot" method="" action="">
+						<div><input class="email" name="email" type="text" value="" /></div>
+						<p class="note">Enter in the Email Address used when signing up for this account.</p>
+						<p><a class="back" href="#">Back to Login?</a></p>
+						<div class="button input"><input type="submit" value="Reset" /></div>
+					</form>
+				</div>
+				<div id="right">
+					<div class="button wide facebook mbot">
+						<a href="#"><span class="label-icon"><span class="facebook"></span>Facebook</span></a>
+					</div>
+					<div class="button twitter wide">
+						<a href="#"><span class="label-icon"><span class="twitter"></span>Twitter</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END LOGIN -->
+		
+		<!-- FOOTER -->
+		<div id="footer" class="clearfix">
+			<p>&copy; Copyright 2012 Live Editions, Inc.</p>
+			<ul id="nav-footer">
+				<li><a href="#">Contact Us</a><span>&bull;</span></li>
+				<li>Follow us on</li>
+				<li><a class="icon-facebook" href="#">Facebook</a></li>
+				<li class="last"><a class="icon-twitter" href="#">Twitter</a></li>
+			</ul>
+		</div>
+		<!-- FOOTER END -->
+		
+	</div>
+	
+	<div id="background"></div>
+
+</div>
+<!-- END META -->
+
+</body>
+</html>
