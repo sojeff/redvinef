@@ -6,36 +6,18 @@
 
 	<title>SO:KNO&trade; | Login</title>
 		
-		<link rel='stylesheet' type='text/css' href='../theme/css/reset.css'>
-		<link rel='stylesheet' type='text/css' href='../theme/css/layout.css'>
-		<link rel='stylesheet' type='text/css' href='../theme/css/styles.css'>
+	<link rel='stylesheet' type='text/css' href='../theme/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='../theme/css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='../theme/css/styles.css'>
 
-	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
-	<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 	<script type='text/javascript' src='../theme/js/libs/jquery.watermark.min.js'></script>
 	<script type='text/javascript' src='../theme/js/libs/jquery.simplemodal.1.4.3.min.js'></script>
 	<script type='text/javascript' src='../theme/js/libs/jquery.autosize-min.js'></script>
 	<script type='text/javascript' src='../theme/js/scripts.js'></script>
 
-	<script>
-  setInterval(function(){
-    try {
-		  if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-		  ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-		  ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-		  ws.onmessage = function(){
-			var links = document.getElementsByTagName('link'); 
-			  for (var i = 0; i < links.length;i++) { 
-			  var link = links[i]; 
-			  if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-				link.href = link.href.split('?')[0]+'?'+(new Date()).getTime()
-			  }
-			}
-		  }
-		}catch(e){}
-  	}, 500)
-	</script>
 </head>
 	
 <body class="landing">
@@ -60,18 +42,20 @@
 			<div id="form" class="clearfix">
 				<div id="left">
 					<form id="login" method="post" action="login.php">
-						<div><input class="email" type="text" name="useremail" id="useremail" maxlength="100" value="" /></div>
-						<div><input class="password" type="password" name="passweird2" id="passweird2" maxlength="20" value="" /></div>
+						<? echo '<div class="form-field"><input class="email" type="text" name="useremail" id="useremail" maxlength="100" value="'.$useremail.'" /></div>'; ?>
+						<div class="form-field"><input class="password" type="password" name="passweird2" id="passweird2" maxlength="20" value="" /></div>
+						
+						<div class="form-field rest"><input type="checkbox" name="remember" <?echo $remember; ?> >Remember Me</div>
 						<p><a class="forgot" href="#">Forgot Your Password?</a></p>
 						<div class="button input"><input  name="login-button" id="login-button" type="Submit" value="Login"/></div>
 					</form>
 					
 					<form id="signup" method="post" action="login.php?signup=YES">
-						<div><input class="firstname" name="firstname" type="text" value="" /></div>
-						<div><input class="lastname" name="lastname" type="text" value="" /></div>
-						<div><input class="email" name="useremail" type="text" value="" /></div>
-						<div><input class="emailconfirm" name="useremail_confirm" type="text" value="" /></div>
-						<div><input class="password" name="passweird2" type="password" value="" /></div>
+						<div class="form-field"><input class="firstname" name="firstname" type="text" value="" /></div>
+						<div class="form-field"><input class="lastname" name="lastname" type="text" value="" /></div>
+						<div class="form-field"><input class="email" name="useremail" type="text" value="" /></div>
+						<div class="form-field"><input class="emailconfirm" name="useremail_confirm" type="text" value="" /></div>
+						<div class="form-field"><input class="password" name="passweird2" type="password" value="" /></div>
 						<div class="note">
 							<input id="female" name="gender" type="radio" value="female" />
 							<label for="female">Female</label>

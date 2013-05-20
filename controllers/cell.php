@@ -322,6 +322,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 
 //load view
 $nav_search_discover = 'cell.php';
+$nav_search_discover2 = 'cell.php';
 $currentDiscover=' class="current" ';
 $currentPersona='';
 $currentSetting='';

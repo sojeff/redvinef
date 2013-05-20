@@ -319,6 +319,10 @@
 						<span class="icon-wedge"></span>
 					</li>
 				</ul>
+			<?
+			if(!$iframe_it or 1==1) //is this content iframed?
+			{
+			?>
 				<ul id="nav-curate">
 					<li class="nav-label">Curate</li>
 						<?php
@@ -342,8 +346,14 @@
 					</li>
 					-->
 				</ul>
+			<?
+			}
+			?>
 			</div>
-
+			<?
+			if($iframe_it) //is this content iframed?
+			{
+			?>
 			<div id="form-tags" class="clearfix">
 				<div class="icon-wedgetags"></div>
 				<form method="post" action="viewcontent.php">
@@ -352,9 +362,12 @@
 					<div class="button input orange"><input type="submit" value="Add Tags" /></div>
 				</form>
 			</div>
-			
+
 			<!-- CONTENT BLOCK -->
 			<div id="content-article" class="clearfix">
+				<div class="button">
+					<a class="iframe" href="#"><span class="label">View Fullframe</span></a>
+				</div>
 				<?
 				//if(!$h3tag)
 				//	{
@@ -370,7 +383,43 @@
 				?>
 				</div>
 			</div>
+			<?
+			}
+			else
+			{
+			?>
+			<div id="form-tags" class="clearfix">
+				<div class="icon-wedgetags"></div>
+				<form method="post" action="viewcontent.php">
+					<p>Add Keywords as Tags.  Seperate each Keyword with a <strong>Comma</strong> or <strong>Space</strong>.</p>
+					<div><input class="tags" name="addtags" type="text" value="" /></div>
+					<div class="button input orange"><input type="submit" value="Add Tags" /></div>
+				</form>
+			</div>
 			
+			<!-- CONTENT BLOCK -->
+			<div id="content-article" class="clearfix">
+				<div class="button">
+					<a class="iframe" href="#"><span class="label">View Fullframe</span></a>
+				</div>
+				<?
+				//if(!$h3tag)
+				//	{
+					echo '<h3 class="title">';
+					echo $cell->title; 
+					echo '</h3>';
+				//	}
+				?>
+				<div section="txt" contentscore="7439">
+				<?
+				echo $myframe; 
+				//echo $imageURL;
+				?>
+				</div>
+			</div>
+		<?
+		}
+		?>
 		</div>
 		<!-- END CONTENT -->
 		<div id="footer" class="wrapper clearfix">
@@ -416,6 +465,55 @@
 		</div>
 		
 	</form>
+</div>
+<!-- CREATE MODAL -->
+<div id="modal-iframe">
+
+	<!-- CONTENT HEADER -->
+	<div id="content-header" class="clearfix">
+
+		<div class="simplemodal-close"><a href="">Close Window</a></div>
+<!--		
+				<ul id="nav-curate">
+					<li class="nav-label">Curate</li>
+						<?php
+						$current = '';
+						if($likeUnlike == 'unlike')
+							$current = ' active';
+					 	echo '<li title="'.$likeUnlike.'"><a class="like'.$current.'" href="viewcontent.php?contentid='.$cell->contentid.'&curationid='.$session->curationid.'&like=Y">Like</a></li>'; 
+						$current = '';
+						if($flagUnflag > 0)
+							$current = ' active';
+						echo '<li title="'.$flagUnflag.'"><a class="flag'.$current.'" href="viewcontent.php?contentid='.$cell->contentid.'&curationid='.$session->curationid.'&flag=Y" >Flag</a></li>'; 
+						?>
+					<li><a class="tag" href="#">Tag</a></li>
+						<li>
+						<a class="share" href="#">Share</a>
+						<ul class="menu">
+							<li><a class="connect" href="#">Connect</a></li>
+							<li><a href="mailto:name@email.com?subject=Check out this Knowledge at SO:KNO&trade;&body=">Email</a></li>
+						</ul>
+						<span class="icon-wedge"></span>
+					</li>
+				</ul>
+-->
+		</div>
+
+<!--	<div id="form-tags" class="clearfix">
+		<div class="icon-wedgetags"></div>
+		<form method="post" action="viewcontent.php">
+			<p>Add Keywords as Tags.  Seperate each Keyword with a <strong>Comma</strong> or <strong>Space</strong>.</p>
+			<div><input class="tags" name="addtags" type="text" value="" /></div>
+			<div class="button input orange"><input type="submit" value="Add Tags" /></div>
+		</form>
+	</div>
+-->
+	<?
+	echo $myframe2; 
+	//echo $imageURL;
+	?>
+	<!-- <iframe class="clearfix" src="http://ibmresearchnews.blogspot.com/2013/01/stable-electrolytes-will-move-next-gen.html" frameborder="0"></iframe>
+-->
 </div>
 <!-- CREATE MODAL -->
 <div id="modal-connect">

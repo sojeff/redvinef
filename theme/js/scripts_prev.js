@@ -2,7 +2,7 @@ $(function() {
 
 	// FIELD WATERMARKS
 	$('input[type="text"].username').watermark('Username', {useNative: false});
-	$('input[type="password"].passwordnew').watermark('Password', {useNative: false});
+	$('input[type="password"].password').watermark('Password', {useNative: false});
 	$('input[type="password"].passwordconfirm').watermark('Confirm Password', {useNative: false});
 	$('input[type="text"].firstname').watermark('First Name', {useNative: false});
 	$('input[type="text"].lastname').watermark('Last Name', {useNative: false});
@@ -11,7 +11,7 @@ $(function() {
 	$('input[type="text"].year').watermark('YYYY', {useNative: false});
 	$('input[type="text"].city').watermark('City', {useNative: false});
 	$('input[type="text"].zip').watermark('Zip Code', {useNative: false});
-	$('input[type="text"].emailnew').watermark('Email', {useNative: false});
+	$('input[type="text"].email').watermark('Email', {useNative: false});
 	$('input[type="text"].emailconfirm').watermark('Re-enter Email', {useNative: false});
 	$('input[type="text"].search').watermark('Find Knowledge by Entering a Keyword', {useNative: false});
 	$('input[type="text"].title').watermark('Enter in the Title for this Thread', {useNative: false});
@@ -146,7 +146,6 @@ $(function() {
 	// iFRAME MODAL
 	$('a.iframe').click(function (e) {
 		e.preventDefault();
-		$("html,body").css("overflow","hidden");
 
 		// CALLBACK FUNCTION
 		confirm(function () {
@@ -176,7 +175,7 @@ $(function() {
 			});
 		}
 		var modalHeight = $('#modal-iframe-container').height();
-		//$('#modal-iframe > iframe').height(modalHeight - 58);
+		$('#modal-iframe > iframe').height(modalHeight - 58);
 
 	});
 

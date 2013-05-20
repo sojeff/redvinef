@@ -1,4 +1,19 @@
 <?php
+//700000949195915
+$remember = '';
+$useremail = '';
+$passweird2 = '';
+if(isset($_POST['useremail']) and $_POST['useremail'] != '' and isset($_POST['remember']) and $_POST['remember'] == 'on')
+	{
+	$intwomonths = 60 * 60 * 24 * 60 + time();
+	$useremail = $_POST['useremail'];
+	$passweird2 = $_POST['passweird2'];
+	$a3 = setcookie("useremail", $useremail, $intwomonths);
+	$a3 = setcookie("passweird2", $passweird2, $intwomonths);
+	$remember = 'checked';
+	}
+
+
 	error_reporting(E_ALL);
 ini_set('error_reporting', E_ALL);
 ini_set('display_startup_errors', 'On');
@@ -20,6 +35,37 @@ if(isset($_POST))
 	echo '</pre>';
 	}
 */
+if(isset($_COOKIE['useremail']) and $_COOKIE['useremail'] != 0 and $_COOKIE['useremail'] != '')
+	$useremail = $_COOKIE['useremail'];
+	
+if(isset($_COOKIE['userguid']) and $_COOKIE['userguid'] != 0 and $_COOKIE['userguid'] != '' and isset($_COOKIE['useremail']) and isset($_COOKIE['passweird2'])) 
+	{
+	//form has been subitted
+	$username = trim($_COOKIE['useremail']);
+	$password = trim($_COOKIE['passweird2']);
+	
+	//check database to see if username/password exists
+	$found_user = User::authenticate($username, $password, 1);
+
+	if($found_user)
+		{
+		$session->login($found_user);
+		log_action('Login', "{$found_user->email} : logged in.");
+		
+		redirect_to("../index.php?userguid=".$_SESSION['user_id']);
+		}
+	else
+		{
+		//username/password combo was not found in the Database
+		$session->message = "Username and/or password combination was incorrect.";
+		//login view
+		
+		
+		include (VIEWS_PATH.DS.'login.php');
+
+		}
+	
+	}
 
 //remember to give your form's submit tag a name="submit" attribute!
 if(isset($_POST['login-button'])) 

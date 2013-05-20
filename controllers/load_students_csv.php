@@ -129,12 +129,17 @@ echo '<br/>Count Results: '.count($results);
 						
 					echo '<br>Sql: '.$sqlpriv;
 					
-					$from = "support@getsokno.com";
-					if($server == 'test')
-						$subject = "TEST ONLY - So Kno Create Account";
-					else
-						$subject = "So Kno Create Account";
-					$body = "
+					}
+					
+				}
+//now send the email to this new user: 
+			$from = "support@getsokno.com";
+			$from = "fhenders@hartnell.edu";
+			if($server == 'test')
+				$subject = "TEST ONLY - So Kno Create Account";
+			else
+				$subject = "So:KNO Create Account";
+			$body = "
 <html> 
   <body bgcolor=\"#DDDDDD\"> 
 <p>A new user account has been created at </p>
@@ -165,16 +170,45 @@ echo '<br/>Count Results: '.count($results);
   </body>
 </html>
 ";
-					if($server == 'prod')
-						{
-						send_email($from, $username, $subject, $body);
-						}
-					send_email($from, 'eric@getsokno.com, dan@getsokno.com, jeff@getsokno.com, dorietz@me.com', $subject, $body);
-					
-					}
-					
+
+			$body = "
+<html> 
+<p>Hartnell College is a part of a Beta test for an exciting new technology platform which creates an organic personal workspace for Students, Tutors, Professors and Administrators. The platform will not replace anything we currently use - at least for now. It is not a replacement for our website, PAWS or Etudes. What it adds is a tool to gather, store and share information with others or to look at what others have gathered on any subject that would be helpful to your academic work at Hartnell College.</p>
+
+<p>As you gain new knowledge, learn new materials and collect research on a topic, a personal collection of your research and thoughts on a topic can be created, while simultaneously building a body of knowledge that grows as others participate. You may end up being the top expert on many different topics or ares of knowledge in the system.</p>
+
+<p>The name of the company is SO:KNO, which stands for \"Social Knowledge\". When you use SO:KNO three important things become possible:</p>
+
+<p>1. Any internet links that you find helpful can be saved for your own use, while simultaneously being shareable with others.</p>
+<p>2. Communities of knowledge (called Knowledge Cells) can be built organically on any topic if they don't exist, or you may connect to existing Knowledge Cells that have been created.</p>
+<p>3. A discussion can be started on any topic, or a piece of content for greater understanding of the subject.</p>
+
+<p>The goal of this Beta test is to help develop and enhance a new learning environment and methodology to assist fellow Hartnell students, and eventually other students around the world. Think about it, someday you will be able to say that you helped SO:KNO become famous.</p>
+
+<p>We need to fill you in on what we need you to do inside this environment, so if you want to help us test the coolest tool for schools of the future, you must participate in training for use of the platform, your training date is listed below:</p>
+
+<p>Training and Installation: (please bring your personal computers or tablets if you have one)</p>
+
+<p>Tuesday April 16th 10am or  2PM via GoToMeeting</p>
+<p>Wednesday April 17th at 10am or 2PM via GoToMeeting</p>
+
+<p>If you are not available on one of these dates in person please contact dan@getsokno.com to set up a time to receive your training.</p>
+
+<p>Below is your log in and password which gives you access to the platform:</p>
+
+<p><a href=\"https://getsokno.com\">https://getsokno.com</a></p>
+
+<p>using Email: $username</p>
+<p>Password: $password</p>
+
+";
+			if($server == 'prod')
+				{
+				send_email($from, $username, $subject, $body);
 				}
-				
+			send_email($from, 'eric@getsokno.com, dan@getsokno.com, jeff@getsokno.com, dorietz@me.com', $subject, $body);
+					
+
 			}
 
 echo '<br/><br/>Total Records Updated: '.$linect;

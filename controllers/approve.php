@@ -103,22 +103,44 @@ if(isset($_GET['sucode']) and $_GET['sucode'] != '' and isset($_GET['uname']) an
 
 		//now get the private member groups for this private user topic
 		$sqlpvtgrp = "select * from private_groups where private_user_index_part = '$private_index_part' order by private_group_title";
-		//echo '<br>sqlpvtgrp: '.$sqlpvtgrp;
+		echo '<br>sqlpvtgrp: '.$sqlpvtgrp;
+		$foundone = false;
 		echo '<tr>';
-
+		$privateid_array = array();
 		echo '<td>Private Group?</td><td><select name="private_groups">';
 		echo '<option value=""></option>';
+		$i = 0;
 		$resultgrp = mysql_query($sqlpvtgrp);
 		$arrgrp = db_result_to_array($resultgrp);
 		foreach ($arrgrp as $grp)
 			{
+			$foundone = true;
 			$private_group_title = $grp['private_group_title'];
 			$privateid = $grp['privateid'];
 			echo '<option value="'.$privateid.'">'.$private_group_title.'</option>';
+			$privateid_array[$i] = $privateid;
+			$i++;
 			}
+			
+		if($foundone)
+			{
+			echo '<option disabled>----------------</option>';
+			echo '<option value="Add to All">Add to All</option>';
+			}
+		
 		echo '</select>';
 		echo '</td>';
 		echo '</tr>';
+		
+		//$i is the loop thru the array to set Add to All
+		//$privateid_array is the array of private ids to set
+		
+		echo '<input type="hidden" name="iloop" value="'.$i.'">';
+		for($j = 0; $j < $i; $j++)
+			{
+			echo '<input type="hidden" name="privateid_array[]" value="'.$privateid_array[$j].'">';
+			}
+		
 		//set access level 
 		echo '<tr>';
 		echo '<td>User Access for Private</td><td><select name="access">';
@@ -147,6 +169,10 @@ if(isset($_GET['sucode']) and $_GET['sucode'] != '' and isset($_GET['uname']) an
 	}
 else if(isset($_POST['sucode']) and $_POST['sucode'] != '' and isset($_POST['userguid']) and $_POST['userguid'] != '')
 	{
+	echo '<pre>';
+	print_r($_POST);
+	echo '</pre>';
+	
 		$userguid = $_POST['userguid'];
 		$email = $_POST['email'];
 		$password = $_POST['password'];
@@ -161,6 +187,8 @@ else if(isset($_POST['sucode']) and $_POST['sucode'] != '' and isset($_POST['use
 			$can_create_private = 'Y';
 
 		$privateid = $_POST['private_groups'];
+		//$iloop = $_POST['iloop'];
+		//$privateid_array = $_POST['privateid_array'];
 		$access = $_POST['access'];
 
 		$sqlu = "update users set verified = 1, 
@@ -172,13 +200,28 @@ else if(isset($_POST['sucode']) and $_POST['sucode'] != '' and isset($_POST['use
 		if($result)
 			{
 			echo '<br><br>SAVED!!!';
-			if($private_cell_name != '' and $privateid > 0)
+			if($private_cell_name != '' and ($privateid > 0 or $privateid == 'Add to All'))
 				{
-				$sqlpvtmemgrp = "insert into private_groups_members set private_user_index_part = '$private_index_part',
-																		userguid = '$userguid',
-																		privateid = '$privateid',
-																		access    = '$access' ";
-				$result = mysql_query($sqlpvtmemgrp);
+				if($privateid != 'Add to All')
+					{
+					$sqlpvtmemgrp = "insert into private_groups_members set private_user_index_part = '$private_index_part',
+																			userguid = '$userguid',
+																			privateid = '$privateid',
+																			access    = '$access' ";
+					$result = mysql_query($sqlpvtmemgrp);
+					}
+				else
+					{
+					foreach($_POST["privateid_array"] as $privateid)
+						{
+						$sqlpvtmemgrp = "insert into private_groups_members 
+										 set private_user_index_part  = '$private_index_part',
+															userguid  = '$userguid',
+															privateid = '$privateid',
+															access    = '$access' ";
+						$result = mysql_query($sqlpvtmemgrp);
+						}
+					}
 				//echo '<br>'.$sqlpvtmemgrp;
 
 				}

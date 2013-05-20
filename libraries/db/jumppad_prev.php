@@ -51,7 +51,6 @@ ORDER BY MAX( c.curationid ) DESC
 		if($session->user_view == 'global' and $session->user_search == '')
 			{
 			$where2 = " global = 'Y' and ";
-			$where2 = "";
 			}
 
 		$where = " where $where2 t.privateid = 0 and c.topicid = t.topicid and c.contentid = n.contentid and c.flags < 3 ";
@@ -65,7 +64,6 @@ ORDER BY MAX( c.curationid ) DESC
 		if($session->user_view == 'personal')
 			{
 			$where .= "and c.userguid = ".$user_id_now." and t.global != 'Y' ";
-			$where .= "and c.userguid = ".$user_id_now." ";
 			}
 			
 		else if($session->user_view == 'private' and $private_user_index_part != 0)
@@ -76,14 +74,6 @@ ORDER BY MAX( c.curationid ) DESC
 			}
 		if($session->user_search != '' and strtolower($session->user_search) != 'find knowledge')
 			{
-			//$where = str_replace("where "," , comments as com where ", $where); //add the comments table to the query.
-			/*
-			$where .= " and ((c.tags like '%".addslashes($session->user_search)."%') or 
-		                (t.topic like '%".addslashes($session->user_search)."%') or
-		                (n.title like '%".addslashes($session->user_search)."%') or
-		                (com.body like '%".addslashes($session->user_search)."%') or
-		                (n.url like '%".addslashes($session->user_search)."%')) ";
-		    */
 			$where .= " and ((c.tags like '%".addslashes($session->user_search)."%') or 
 		                (t.topic like '%".addslashes($session->user_search)."%') or
 		                (n.title like '%".addslashes($session->user_search)."%') or
@@ -114,12 +104,11 @@ ORDER BY MAX( c.curationid ) DESC
 				$where 
 				Group by c.topicid having count(c.topicid) = 1
 				$sort";
-
-		$sql = "SELECT t.topicid, t.topic
+ 		$sql = "SELECT t.topicid, t.topic
 				FROM topics AS t, curations AS c, content AS n
 				$where
 				$sort ";
-			
+
 		$sql .= " LIMIT {$per_page} ";
 		$sql .= " OFFSET {$offset}";
 		$session->message .= '--Curations(jumppad): '.$sql;

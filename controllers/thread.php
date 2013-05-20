@@ -111,7 +111,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 			$session->set_curationid($curation->curationid);
 			$thecomments = Comments::find_by_id($session->commentid);
 			}
-		else if(isset($session->curationid))
+		else if(isset($session->curationid) and $session->curationid != '' and $session->curationid != 0)
 			{
 			$curation = Jumppad::find_by_id($session->curationid);		
 			}
@@ -181,8 +181,12 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 				$validurl = false;
 			}
 				
-		if(isset($_POST['button-addcomment']) and 
+/*		if(isset($_POST['button-addcomment']) and 
 			((isset($_POST['field-comment']) and $_POST['field-comment'] != '' and $_POST['field-comment'] != 'Share Some Knowledge') or 
+			(isset($_POST['link']) and $_POST['link'] != '' and $_POST['link'] != 'Enter in a Link to Outside Content')))
+*/
+		if(isset($_POST['button-addcomment']) and 
+			((isset($_POST['field-comment']) and $_POST['field-comment'] != '') or 
 			(isset($_POST['link']) and $_POST['link'] != '' and $_POST['link'] != 'Enter in a Link to Outside Content')))
 			{
 			//create a new thread
@@ -207,18 +211,18 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 			if($parent_commentid != 0)
 				{
 				//create a new sub thread pointing to parent thread, not a sub sub thread
-				$thread->commentid = '';
+				$thread->commentid = 0;
 				$thread->parentid = $parent_commentid;
 				if(isset($_POST['parent_title']) and $_POST['parent_title'] != '')
 					$thread->title = $_POST['parent_title'];
 				//i need to create a new curation record for this user's new sub thread
-				$curation->curationid = '';			
+				$curation->curationid = 0;			
 				}
 			else  //creating a new thread 
 				{
-				$thread->commentid = '';
+				$thread->commentid = 0;
 				$thread->parentid = 0;
-				$curation->curationid = '';	
+				$curation->curationid = 0;	
 				if(isset($_POST['parent_title']) and $_POST['parent_title'] != '')
 					$thread->title = $_POST['parent_title'];
 				$parent_body = $thread->body;

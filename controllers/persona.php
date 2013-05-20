@@ -36,6 +36,20 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 	if(isset($_POST['field-find']))
 		{
 		$session->set_user_search($_POST['field-find']);
+		if($_POST['field-find'] != '')
+			{
+			$search = str_replace(" ","%",$_POST['field-find']);
+			$search = "select * from users where userguid = '$search' or first_name like '%$search%' or last_name like '%$search%' limit 1";
+			$found_user = User::find_by_sql($search);
+			if($found_user)
+				{
+				foreach($found_user as $fuser)
+					{
+					$userid = $fuser->userguid;
+					$user_find = User::find_by_id($userid);
+					}
+				}
+			}
 		}
 	//set the active view for the user's view
 	if($session->user_view == 'personal')
@@ -127,6 +141,11 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 		//is the user following this selected persona?
 		//$following_thisperson = false;
 		//$following_thisperson = User_follows::get_followers($persona->userguid);
+		}
+	else if(isset($user_find) and count($user_find) == 1)
+		{
+		//different persona than User
+		$persona = $user_find;
 		}
 	else
 		$persona = $user;
@@ -615,6 +634,7 @@ echo '</pre>';
 
 //load view
 $nav_search_discover = 'jumppad.php';
+$nav_search_discover2 = 'persona.php';
 $currentDiscover='';
 $currentPersona=' class="current" ';
 $currentSetting='';

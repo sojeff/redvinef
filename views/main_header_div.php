@@ -36,9 +36,9 @@
 				<li><a href="persona.php" <?php echo $currentPersona;?>> <span class="button-persona" ></span>Persona</a></li>
 				<li><a href="settings.php" <?php echo $currentSetting;?>> <span class="button-settings" ></span>Settings</a></li>
 			</ul>
-			
+<? if(!isset($nav_search_discover2)) $nav_search_discover2 = 'jumppad.php'; ?>			
 			<div id="form-search">
-				<form method="post" action=<? echo '"'.$nav_search_discover.'"'; ?> >
+				<form method="post" action=<? echo '"'.$nav_search_discover2.'"'; ?> >
 				<input class="search" type="text" id="field-find" name="field-find" value="<?php echo ((isset($find_knowledge))? $find_knowledge :'');?>" />
 				<input class="button search" type="submit" />
 				</form>

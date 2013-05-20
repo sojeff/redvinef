@@ -245,6 +245,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 	$myview = $session->user_view;
 	$mycell = $topic->topic;
 	$myframe = '';
+	$mybody = '';
 	$nomedia = false;
 	$cell->url = str_replace("m.youtube.com/watch?feature=related&","www.youtube.com/watch?",$cell->url);
 	$cell->url = str_replace("m.youtube.com/watch?","www.youtube.com/watch?",$cell->url);
@@ -256,6 +257,8 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 		// No embeddable video found (or supported)
 		$nomedia = true;
 	}
+	$iframe_it = false;
+	$myframe2 = '';
 	if(!$nomedia)
 		{
 		// Get the related image
@@ -264,6 +267,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 		$AE->setParam('wmode','transparent');
 		$AE->setParam('autoplay','false');	
 		$myframe = 	$AE->getEmbedCode();
+		$myframe2 = $myframe;	
 		}
 	else
 		{
@@ -308,6 +312,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 			if($posh3 !== false)
 				$h3tag = true;
 			$myframe = $mybody;
+			$myframe2 = '<iframe  width="760" height="1200" src="'.$cell->url.'" scrolling="yes" frameborder="3"></iframe>';	
 			}
 		else
 			{
@@ -318,7 +323,8 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 					{
 					$myframe = '<div style="-webkit-overflow-scrolling:touch; overflow: auto;">
 					<iframe  src="'.$cell->url.'"   width="960" height="2400" scrolling="yes" frameborder="2"></iframe>
-					</div>';	
+					</div>';
+					$iframe_it = true;
 					}
 				else
 					{
@@ -336,16 +342,25 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 					//</div>';
 						$myframe = '<div style="-webkit-overflow-scrolling:touch; overflow: auto;">
 					<iframe  src="'.$cell->url.'"  width="960" height="2400" frameborder="2"></iframe>
-					</div>';	
-				}
+					</div>';
+					$iframe_it = true;
+					}
+				$myframe2 = '<iframe  width="960" height="2400" src="'.$cell->url.'" scrolling="yes" frameborder="3"></iframe>';	
 				}
 			else
+				{
 				$myframe = '<iframe  width="760" height="1200" src="'.$cell->url.'" scrolling="yes" frameborder="3"></iframe>';	
+				$myframe2 = '<iframe  width="760" height="1200" src="'.$cell->url.'" scrolling="yes" frameborder="3"></iframe>';	
+				$iframe_it = true;
+				}
 			}
 		}
 	if(isset($article->contentid))
 		{
-		$myframe .= $article->body;
+		if($mybody == '')
+			$myframe .= $article->body;
+		if($myframe2 == '')
+			$myframe2 = '<iframe  width="760" height="1200" src="'.$cell->url.'" scrolling="yes" frameborder="3"></iframe>';	
 		}
 	//create the userviews record. Save if already exists
 	$userview = new Userview;

@@ -1,4 +1,12 @@
 <?php
+//700000949195915
+if(isset($_GET['userguid']) and $_GET['userguid'] != '')
+	{
+	$intwomonths = 60 * 60 * 24 * 60 + time();
+	$userguid = $_GET['userguid'];
+	$a3 = setcookie("userguid", $userguid, $intwomonths);
+	}
+
 	error_reporting(E_ALL);
 ini_set('error_reporting', E_ALL);
 ini_set('display_startup_errors', 'On');
@@ -14,7 +22,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 
 	// 2. records per page ($per_page)
 	$per_page = $session->per_page;
-	$per_page = 2000;
+	$per_page = 100;
 
 	// 3. total record count ($total_count)
 	$total_count = Jumppad::count_all();
@@ -163,7 +171,7 @@ if(!$session->is_logged_in()) { redirect_to("login.php"); }
 	//now clear the search field
 	$find_knowledge = 'Find Knowledge by Entering a Keyword';
 	if($session->user_search != '')
-		$session->set_user_search('');
+		$find_knowledge = $session->user_search;
 		
 		
 //load view

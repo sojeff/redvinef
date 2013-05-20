@@ -47,7 +47,7 @@
 		<div id="harvester">
 		<?
 			//echo '<a onclick="alert(\'Drag me to the bookmarks bar\'); return false;" href="'.$urlnow.'" title="SO:KNO Harvest" class="button">';
-			echo '<a href="javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&notes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=0,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()">
+			echo '<a href="javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&notes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=1,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()">
 			  <span><img src="../theme/img/ui/button-harvest.png" alt="SO:KNO Harvester" align="middle" />
 			  </span></a>';
 		$isiPad = false;
@@ -73,7 +73,7 @@
 		if($isiPad or $isiPod or $isiPhone)
 			{
 			echo '<br><p>***    copy javascript below for iPad     ***</p>';
-			echo '<p><form class="none"><textarea rows="6" cols="80">javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&ntes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=0,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()</textarea><br/>';
+			echo '<p><form class="none"><textarea rows="6" cols="80">javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&ntes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=1,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()</textarea><br/>';
 			echo '</form></p>';
 			if($isiPad)
 				echo '<h3>iPad Installation</h3>';
@@ -103,7 +103,7 @@
 		if($isAndroid)
 			{
 			echo '<br><p>***    copy javascript below for iPad     ***</p>';
-			echo '<p><form class="none"><textarea rows="6" cols="80">javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&ntes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=0,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()</textarea><br/>';
+			echo '<p><form class="none"><textarea rows="6" cols="80">javascript:(function()%7Bf=\'http://'.$_SERVER['HTTP_HOST'].'/saveit.php?guid='.$user->userguid.'&url=\'+encodeURIComponent(window.location.href)+\'&title=\'+encodeURIComponent(document.title)+\'&ntes=\'+encodeURIComponent(\'\'+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text))+\'&v=6&\';a=function()%7Bif(!window.open(f+\'noui=1&jump=doclose\',\'soKno6\',\'location=1,links=0,scrollbars=1,toolbar=0\'))location.href=f+\'jump=yes\'%7D;if(/Firefox/.test(navigator.userAgent))%7BsetTimeout(a,0)%7Delse%7Ba()%7D%7D)()</textarea><br/>';
 			echo '</form></p>';
 			echo '<h3>Android Installation</h3>';
 			?>	

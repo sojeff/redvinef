@@ -6,11 +6,13 @@ ini_set('display_errors', 'On');
 
 require_once('libraries/initialize.php');
 
-
+$add = '0';
+if(isset($_SESSION['user_id']))
+	$add = $_SESSION['user_id'];
 if(!$session->is_logged_in()) { redirect_to("controllers/login.php"); }
 
 else
-	redirect_to("controllers/jumppad.php");
+	redirect_to("controllers/jumppad.php?userguid=".$add);
 
 
 
